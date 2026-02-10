@@ -1,0 +1,1404 @@
+{
+  "type": "bundle",
+  "id": "bundle--018349d1-e84d-497c-8f4f-e539449675c2",
+  "objects": [
+    {
+      "type": "identity",
+      "spec_version": "2.1",
+      "id": "identity--8e80afbb-138d-41da-89f4-1c5dca9da71c",
+      "created": "2026-02-07T10:25:00.000Z",
+      "modified": "2026-02-07T10:25:00.000Z",
+      "name": "[REDACTED-ORG]",
+      "identity_class": "organization"
+    },
+    {
+      "type": "grouping",
+      "spec_version": "2.1",
+      "id": "grouping--fee799d8-2ea9-4819-bcb3-16efca4b1bf8",
+      "created_by_ref": "identity--8e80afbb-138d-41da-89f4-1c5dca9da71c",
+      "created": "2026-02-07T10:25:00.000Z",
+      "modified": "2026-02-07T10:25:00.000Z",
+      "name": "Crazy Domains Phishing Campaign",
+      "context": "suspicious-activity",
+      "object_refs": [
+        "indicator--251841e6-e6c1-4c71-8653-64b9e1518cbc",
+        "indicator--c7895e7f-cc96-45a7-b24a-152586909623",
+        "x-misp-object--ba676bfa-8379-4cb8-93dc-a9820979ea81",
+        "indicator--f221b81b-195c-4c04-907b-56f3052641d0",
+        "indicator--9924c34f-201f-4b01-a6f8-39ec8ca75e7a",
+        "identity--e15d9e88-0e4c-48ae-acf2-60b4714f8fe3",
+        "indicator--2f2ed96f-0b02-480e-80dc-9488018a24ce",
+        "indicator--b47093f7-d77a-4ef8-98df-09cbdfd97c7f",
+        "indicator--34f6796a-ffcc-48ce-b740-b2304343374f",
+        "identity--c12dfbfb-f723-4412-b528-585d9f0b35be",
+        "identity--242152b5-3e2e-48a4-85a9-386f88454056",
+        "identity--e8d989b3-db61-46f6-a3ff-09ae07cc7201",
+        "x-misp-object--516cef30-56dc-4023-82ea-71d133651a83",
+        "identity--b5d64ca2-41e5-44e5-88a5-21efa4144dbe",
+        "indicator--9532d8e8-38c6-4294-bfe1-21f86ff5a8e3",
+        "indicator--290edd12-9083-4896-a39c-fc536e7a2d61",
+        "indicator--5dee53fa-0916-452c-b9d1-7a853afbb860",
+        "x-misp-object--6a40e665-b5cd-4226-9668-ae5fe1b9d538",
+        "x-misp-object--f95c6400-0cfa-4b91-9115-71a11505fd94",
+        "identity--c63a83fd-5230-496b-a42d-e17341d93877",
+        "identity--c8af94a7-ba74-462a-8135-67de78deb73d",
+        "indicator--225cb098-3f65-48a6-957f-9f88b3a01210",
+        "indicator--8c2e8d89-dbf1-483c-bb2f-a50a640b9492",
+        "indicator--a17a6e12-b146-4855-8ceb-b7925f452912",
+        "identity--ffb9f7e7-d686-4c8d-a637-4233742fa3f1",
+        "identity--0f8d7072-3507-44c4-a409-fc0e67dfee17",
+        "observed-data--0771b6bf-e320-4d76-a646-1f9f86a92106",
+        "autonomous-system--0771b6bf-e320-4d76-a646-1f9f86a92106",
+        "note--f3f57f24-7389-49bd-ba6a-96ab03be939d",
+        "note--34832379-5a9e-4e25-9d9e-dc6f0f1485c3",
+        "note--3ae0a6b1-d017-4d9f-9cfb-8253ce5e1578",
+        "attack-pattern--2b742742-28c3-4e1b-bab7-8350d6300fa7",
+        "attack-pattern--17fd695c-b88c-455a-a3d1-43b6cb728532",
+        "attack-pattern--ef67e13e-5598-4adc-bdb2-998225874fa9",
+        "attack-pattern--69e5226d-05dc-4f15-95d7-44f5ed78d06e",
+        "relationship--8ee15963-2dba-455a-9b17-d390c240de62",
+        "relationship--1dc58d35-e6d6-4a3d-9cd3-0ea218b9121c",
+        "relationship--4d36a21e-41c5-4075-aaeb-63ca3720a274",
+        "relationship--af748c01-a1cd-4efa-bc1a-ace537ed003b",
+        "relationship--0e179880-1bb9-42bd-95fd-3d6b07fdfcb1",
+        "relationship--f6e5c9d8-d17e-4759-a660-90fcd8cbe08a",
+        "relationship--490e0711-55b7-463b-abdb-eaacf7b5c5a4",
+        "relationship--15b03774-3c8b-4847-9a82-370de6d3c1f8",
+        "relationship--2370d942-bcb6-4074-944b-cfa6bd24bf65",
+        "relationship--16ba17d5-d77f-45e1-822b-fd3a5df9157f",
+        "relationship--a4f55f2e-1415-4e4a-96f8-740ab2b4c0ac",
+        "relationship--186821c3-698e-4f97-9a5b-493c9f0ecbdc",
+        "relationship--a2f9d519-e36c-4a4b-b718-fa7cfb212cc1",
+        "relationship--c7310ea0-04bf-4f6d-a92c-cbe52163fb9c",
+        "relationship--64f492ab-6ea0-4cb9-a06e-d71e7d11462c",
+        "relationship--d2362bcb-8612-4512-8f50-f9de3103956d",
+        "relationship--40b8091d-70dd-4418-8c0c-656a985828e3",
+        "relationship--a25e2769-3654-4167-b0f4-f93449af5a73",
+        "relationship--b28de5d6-ce6e-4c2b-8d4c-dbe38bafd9a8",
+        "relationship--d06c89a5-ca09-4ca5-8c13-a2e36df8c19a",
+        "relationship--b6249c21-c5d2-4e00-8449-3ebb8363496d",
+        "relationship--e0e7ec49-8590-40e1-b2a3-948c55dfbfc0",
+        "relationship--13a254e6-a47f-4295-9bd6-7b3e07620393",
+        "relationship--b9a9f637-e3e7-475c-986d-e7d45f1249c1",
+        "relationship--d7711567-24dd-4f52-bf61-ce161a7f440a",
+        "relationship--cea144de-f552-4d67-8fcc-441ae1af56fa",
+        "relationship--80df2bc6-8e1a-4ad9-9cbe-33b3197d95fa",
+        "relationship--0f8d08b7-9851-4da3-b369-b2ce1481bce9",
+        "relationship--404e68fe-a2b9-4d65-b701-467df388732d",
+        "relationship--c47bf875-df56-40b2-ada9-a02a308f7f94",
+        "relationship--4a0cdf17-04e0-4b5a-b781-80d81af65920"
+      ],
+      "labels": [
+        "Threat-Report",
+        "misp:tool=\"MISP-STIX-Converter\"",
+        "phishing:distribution=\"spear-phishing\"",
+        "rsit:fraud=\"phishing\"",
+        "phishing:state=\"active\"",
+        "tlp:clear",
+        "admiralty-scale:source-reliability=\"b\"",
+        "admiralty-scale:information-credibility=\"2\"",
+        "cti:dissemination-done"
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--251841e6-e6c1-4c71-8653-64b9e1518cbc",
+      "created_by_ref": "identity--8e80afbb-138d-41da-89f4-1c5dca9da71c",
+      "created": "2026-01-05T06:30:26.000Z",
+      "modified": "2026-01-05T06:30:26.000Z",
+      "pattern": "[email-message:to_refs[0].value = '[REDACTED]@[VICTIM-DOMAIN]' AND email-message:to_refs[0].display_name = 'adaptive' AND email-message:body = 'Service Suspension Notice\r\n\r\nDear customer,\r\n\r\nWe would like to inform you that, in accordance with our contractual terms, your\r\nservice has been suspended due to a payment issue encountered during automatic\r\nrenewal.\r\n\r\nHere are the details regarding this suspension :\r\n\r\nDomain name\r\nReason for suspension\r\n\r\n[VICTIM-DOMAIN]\r\nFailed automatic renewal\r\n\r\nTo reactivate your service, we invite you to resolve your account by completing\r\nthe pending payment. You can do so directly via the following link :\r\n\r\nReactivate your service\r\n<http://86797515.delphine-mari.com/?id=[VICTIM-DOMAIN]>\r\n\r\nWe remain at your disposal for any further information you may require.\r\n\r\nBest regards,\r\nThe Crazy Domains team' AND email-message:from_ref.value = 'contact@snaitrezzano.it' AND email-message:from_ref.display_name = 'Crazy Domains' AND email-message:message_id = 'MZG0NDC3.MJI2NZYXMG.831704122420322025351675124782@snaitrezzano.it' AND email-message:date = '2025-12-24T20:47:22.000000+0000' AND email-message:subject = 'Service Suspension Notice.' AND email-message:additional_header_fields.x_mailer = 'X-FBL: 1_58_831_0_636F6E746163744061646170746976652E6E7A' AND email-message:x_misp_header = 'Return-Path: <contact@snaitrezzano.it>X-Original-To: [REDACTED]@[VICTIM-DOMAIN]\r\nDelivered-To: [REDACTED-USER]@[VICTIM-DOMAIN]\r\nAuthentication-Results: charon.[VICTIM-DOMAIN];\r\n        dkim=pass (1024-bit key; unprotected) header.d=snaitrezzano.it header.i=@snaitrezzano.it header.a=rsa-sha256 header.s=out-vmta header.b=l/ExUgzk;\r\n        dkim-atps=neutral\r\nReceived: from snaitrezzano.it (ip81.ip-51-77-80.eu [51.77.80.81])\r\n        by charon.[VICTIM-DOMAIN] (Postfix) with ESMTPS id E5E087D5B0\r\n        for <[REDACTED]@[VICTIM-DOMAIN]>; Wed, 24 Dec 2025 20:47:22 +0000 (UTC)\r\nDKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; s=out-vmta; d=snaitrezzano.it;\r\n        h=Content-Type:MIME-Version:Date:Subject:From:Message-ID:To;\r\n        bh=gG/PXWsCg087OJF9YGe3/7dcBpenxxjxgEpwgRsuBlE=;\r\n        b=l/ExUgzkrnv3gdi3rhcbck/etntilUO5a7yYxJ28mFqInZFf8/GHVkvRGCQg6UXrhTje/LjiQaQB\r\n        nf0FP9T5x46qIwVdmwiigrKK6harbnj+BQSsZdTjtD5ax8ulD2nePc0rQT4lCxZv/ZLJ4YIOV8t+\r\n        5CqaAaz/wL3wZaUmmh0=\r\nContent-Type: multipart/alternative; boundary=\\\\\"------------090809010002080201040908\\\\\"\r\nMIME-Version: 1.0\r\nDate: Wed, 24 Dec 2025 20:32:35 +0100\r\nSubject: Service Suspension Notice.\r\nFrom: Crazy Domains <contact@snaitrezzano.it>\r\nX-FBL: 1_58_831_0_636F6E746163744061646170746976652E6E7A\r\nMessage-ID: <MZG0NDC3.MJI2NZYXMG.831704122420322025351675124782@snaitrezzano.it>\r\nTo: adaptive <[REDACTED]@[VICTIM-DOMAIN]>' AND email-message:x_misp_ip_src = '51.77.80.81' AND email-message:x_misp_received_header_hostname = 'ip81.ip-51-77-80.eu' AND email-message:x_misp_from_domain = 'snaitrezzano.it' AND email-message:x_misp_from_domain = 'delphine-mari.com' AND email-message:x_misp_return_path = 'contact@snaitrezzano.it' AND email-message:x_misp_received_header_ip = '51.77.80.81']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-01-05T06:30:26Z",
+      "kill_chain_phases": [
+        {
+          "kill_chain_name": "misp-category",
+          "phase_name": "network"
+        }
+      ],
+      "labels": [
+        "misp:name=\"email\"",
+        "misp:meta-category=\"network\"",
+        "misp:to_ids=\"True\""
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--c7895e7f-cc96-45a7-b24a-152586909623",
+      "created_by_ref": "identity--8e80afbb-138d-41da-89f4-1c5dca9da71c",
+      "created": "2026-01-05T06:20:54.000Z",
+      "modified": "2026-01-05T06:20:54.000Z",
+      "pattern": "[url:value = 'http://86797515.delphine-mari.com/?id=[VICTIM-DOMAIN]' AND url:x_misp_domain = 'delphine-mari.com' AND url:x_misp_host = '86797515.delphine-mari.com']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-01-05T06:20:54Z",
+      "kill_chain_phases": [
+        {
+          "kill_chain_name": "misp-category",
+          "phase_name": "network"
+        }
+      ],
+      "labels": [
+        "misp:name=\"url\"",
+        "misp:meta-category=\"network\"",
+        "misp:to_ids=\"True\""
+      ]
+    },
+    {
+      "type": "x-misp-object",
+      "spec_version": "2.1",
+      "id": "x-misp-object--ba676bfa-8379-4cb8-93dc-a9820979ea81",
+      "created_by_ref": "identity--8e80afbb-138d-41da-89f4-1c5dca9da71c",
+      "created": "2026-01-16T11:14:30.000Z",
+      "modified": "2026-01-16T11:14:30.000Z",
+      "labels": [
+        "misp:name=\"whois\"",
+        "misp:meta-category=\"network\""
+      ],
+      "x_misp_attributes": [
+        {
+          "type": "text",
+          "object_relation": "text",
+          "value": "Domain Name: DELPHINE-MARI.COM\r\n   Registry Domain ID: 2497923712_DOMAIN_COM-VRSN\r\n   Registrar WHOIS Server: whois.ionos.com\r\n   Registrar URL: http://www.ionos.com\r\n   Updated Date: 2025-03-01T08:46:59Z\r\n   Creation Date: 2020-02-28T18:28:59Z\r\n   Registry Expiry Date: 2026-02-28T18:28:59Z\r\n   Registrar: IONOS SE\r\n   Registrar IANA ID: 83\r\n   Registrar Abuse Contact Email: abuse@ionos.com\r\n   Registrar Abuse Contact Phone: +1.6105601459\r\n   Domain Status: clientTransferProhibited https://icann.org/epp#clientTransferProhibited\r\n   Name Server: NS1061.UI-DNS.ORG\r\n   Name Server: NS1079.UI-DNS.COM\r\n   Name Server: NS1085.UI-DNS.DE\r\n   Name Server: NS1099.UI-DNS.BIZ\r\n   DNSSEC: unsigned\r\n   URL of the ICANN Whois Inaccuracy Complaint Form: https://www.icann.org/wicf/",
+          "category": "Other",
+          "uuid": "16e1d3f0-cd12-47dc-9c09-0fb23cf2bd8f"
+        },
+        {
+          "type": "datetime",
+          "object_relation": "creation-date",
+          "value": "2020-02-28T00:00:00.000000+0000",
+          "category": "Other",
+          "uuid": "818e83d7-aa9a-429a-8e37-1ab9c6231ee4"
+        },
+        {
+          "type": "domain",
+          "object_relation": "domain",
+          "value": "delphine-mari.com",
+          "category": "Network activity",
+          "to_ids": true,
+          "uuid": "e351d7b4-c0f2-465b-8601-6b64c773ed83"
+        },
+        {
+          "type": "datetime",
+          "object_relation": "modification-date",
+          "value": "2025-03-01T00:00:00.000000+0000",
+          "category": "Other",
+          "uuid": "e3fc09fe-76df-4d59-9e91-e088b8307017"
+        },
+        {
+          "type": "hostname",
+          "object_relation": "nameserver",
+          "value": "ns1061.ui-dns.org",
+          "category": "Network activity",
+          "to_ids": true,
+          "uuid": "b5635eb6-bd07-4002-997c-55c82971fc79"
+        },
+        {
+          "type": "whois-registrar",
+          "object_relation": "registrar",
+          "value": "IONOS SE",
+          "category": "Attribution",
+          "uuid": "95d70707-ecfe-4b7c-b9f2-ccb051aa807a"
+        }
+      ],
+      "x_misp_meta_category": "network",
+      "x_misp_name": "whois"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--f221b81b-195c-4c04-907b-56f3052641d0",
+      "created_by_ref": "identity--8e80afbb-138d-41da-89f4-1c5dca9da71c",
+      "created": "2026-01-16T11:47:20.000Z",
+      "modified": "2026-01-16T11:47:20.000Z",
+      "pattern": "[domain-name:value = 'snaitrezzano.it' AND domain-name:resolves_to_refs[*].value = '51.77.80.81' AND domain-name:x_misp_text = 'dig snaitrezzano.it ANY\r\n\r\n; <<>> DiG 9.18.39-0ubuntu0.24.04.2-Ubuntu <<>> snaitrezzano.it ANY\r\n;; global options: +cmd\r\n;; Got answer:\r\n;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 52505\r\n;; flags: qr rd ra; QUERY: 1, ANSWER: 50, AUTHORITY: 0, ADDITIONAL: 1\r\n\r\n;; OPT PSEUDOSECTION:\r\n; EDNS: version: 0, flags:; udp: 65494\r\n;; QUESTION SECTION:\r\n;snaitrezzano.it.\t\tIN\tANY\r\n\r\n;; ANSWER SECTION:\r\nsnaitrezzano.it.\t883\tIN\tA\t51.77.80.85\r\nsnaitrezzano.it.\t883\tIN\tA\t51.77.80.66\r\nsnaitrezzano.it.\t883\tIN\tA\t51.77.80.90\r\nsnaitrezzano.it.\t883\tIN\tA\t51.77.80.73\r\nsnaitrezzano.it.\t883\tIN\tA\t51.77.80.63\r\nsnaitrezzano.it.\t883\tIN\tA\t51.77.80.84\r\nsnaitrezzano.it.\t883\tIN\tA\t51.77.80.97\r\nsnaitrezzano.it.\t883\tIN\tA\t51.77.80.65\r\nsnaitrezzano.it.\t883\tIN\tA\t51.77.80.94\r\nsnaitrezzano.it.\t883\tIN\tA\t51.77.80.74\r\nsnaitrezzano.it.\t883\tIN\tA\t51.77.80.77\r\nsnaitrezzano.it.\t883\tIN\tA\t51.77.80.71\r\nsnaitrezzano.it.\t883\tIN\tA\t51.77.80.59\r\nsnaitrezzano.it.\t883\tIN\tA\t51.77.80.86\r\nsnaitrezzano.it.\t883\tIN\tA\t51.77.80.79\r\nsnaitrezzano.it.\t883\tIN\tA\t51.77.80.91\r\nsnaitrezzano.it.\t883\tIN\tA\t51.77.80.80\r\nsnaitrezzano.it.\t883\tIN\tA\t51.77.80.57\r\nsnaitrezzano.it.\t883\tIN\tA\t51.77.80.95\r\nsnaitrezzano.it.\t883\tIN\tA\t51.77.80.83\r\nsnaitrezzano.it.\t883\tIN\tA\t51.77.80.78\r\nsnaitrezzano.it.\t883\tIN\tA\t51.77.80.55\r\nsnaitrezzano.it.\t883\tIN\tA\t51.77.80.53\r\nsnaitrezzano.it.\t883\tIN\tA\t51.77.80.62\r\nsnaitrezzano.it.\t883\tIN\tA\t51.77.80.54\r\nsnaitrezzano.it.\t883\tIN\tA\t51.77.80.98\r\nsnaitrezzano.it.\t883\tIN\tA\t51.77.80.56\r\nsnaitrezzano.it.\t883\tIN\tA\t51.77.80.52\r\nsnaitrezzano.it.\t883\tIN\tA\t51.77.80.93\r\nsnaitrezzano.it.\t883\tIN\tA\t51.77.80.69\r\nsnaitrezzano.it.\t883\tIN\tA\t51.77.80.76\r\nsnaitrezzano.it.\t883\tIN\tA\t51.77.80.89\r\nsnaitrezzano.it.\t883\tIN\tA\t51.77.80.92\r\nsnaitrezzano.it.\t883\tIN\tA\t51.77.80.58\r\nsnaitrezzano.it.\t883\tIN\tA\t51.77.80.99\r\nsnaitrezzano.it.\t883\tIN\tA\t51.77.80.70\r\nsnaitrezzano.it.\t883\tIN\tA\t51.77.80.60\r\nsnaitrezzano.it.\t883\tIN\tA\t51.77.80.61\r\nsnaitrezzano.it.\t883\tIN\tA\t51.77.80.51\r\nsnaitrezzano.it.\t883\tIN\tA\t51.77.80.68\r\nsnaitrezzano.it.\t883\tIN\tA\t51.77.80.75\r\nsnaitrezzano.it.\t883\tIN\tA\t51.77.80.64\r\nsnaitrezzano.it.\t883\tIN\tA\t51.77.80.50\r\nsnaitrezzano.it.\t883\tIN\tA\t51.77.80.87\r\nsnaitrezzano.it.\t883\tIN\tA\t51.77.80.81\r\nsnaitrezzano.it.\t883\tIN\tA\t51.77.80.72\r\nsnaitrezzano.it.\t883\tIN\tA\t51.77.80.82\r\nsnaitrezzano.it.\t883\tIN\tA\t51.77.80.96\r\nsnaitrezzano.it.\t883\tIN\tA\t51.77.80.88\r\nsnaitrezzano.it.\t883\tIN\tA\t51.77.80.67']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-01-16T11:47:20Z",
+      "kill_chain_phases": [
+        {
+          "kill_chain_name": "misp-category",
+          "phase_name": "network"
+        }
+      ],
+      "labels": [
+        "misp:name=\"domain-ip\"",
+        "misp:meta-category=\"network\"",
+        "misp:to_ids=\"True\""
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--9924c34f-201f-4b01-a6f8-39ec8ca75e7a",
+      "created_by_ref": "identity--8e80afbb-138d-41da-89f4-1c5dca9da71c",
+      "created": "2026-01-16T10:44:56.000Z",
+      "modified": "2026-01-16T10:44:56.000Z",
+      "pattern": "[autonomous-system:number = '16276' AND autonomous-system:x_misp_organization = 'OVH' AND autonomous-system:x_misp_first_seen = '2025-12-23T00:00:00.000000+0000' AND autonomous-system:x_misp_subnet_announced = '51.77.0.0/16' AND autonomous-system:x_misp_subnet_announced = '54.36.0.0/16']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-01-16T10:44:56Z",
+      "kill_chain_phases": [
+        {
+          "kill_chain_name": "misp-category",
+          "phase_name": "network"
+        }
+      ],
+      "labels": [
+        "misp:name=\"asn\"",
+        "misp:meta-category=\"network\"",
+        "misp:to_ids=\"True\""
+      ]
+    },
+    {
+      "type": "identity",
+      "spec_version": "2.1",
+      "id": "identity--e15d9e88-0e4c-48ae-acf2-60b4714f8fe3",
+      "created_by_ref": "identity--8e80afbb-138d-41da-89f4-1c5dca9da71c",
+      "created": "2026-01-16T11:00:04.000Z",
+      "modified": "2026-01-16T11:00:04.000Z",
+      "name": "mersni riedhe",
+      "description": "Possible connection to conceptautocenter.fr (abuse contact for IP block)",
+      "identity_class": "organization",
+      "contact_information": "address: 13 chemin de revellon, 38150 chanas, FR",
+      "labels": [
+        "misp:name=\"organization\"",
+        "misp:meta-category=\"misc\"",
+        "misp:to_ids=\"False\""
+      ],
+      "x_misp_alias": "ULTIMATE CAR 42",
+      "x_misp_registration_number": "538081761 (from Pappers.fr)",
+      "x_misp_type_of_organization": "Car and light motor vehicle trade (NAF: 45.11Z)"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--2f2ed96f-0b02-480e-80dc-9488018a24ce",
+      "created_by_ref": "identity--8e80afbb-138d-41da-89f4-1c5dca9da71c",
+      "created": "2026-01-16T10:00:44.000Z",
+      "modified": "2026-01-16T10:00:44.000Z",
+      "description": "Enriched via the email_import module",
+      "pattern": "[email-message:to_refs[0].value = '[REDACTED]@[VICTIM-DOMAIN]' AND email-message:to_refs[0].display_name = 'adaptive' AND email-message:body = 'Date: Thu, 08 Jan 2026 21:44:11 +0100\r\nSubject: Service Suspension Notice.\r\nTo: adaptive <[REDACTED]@[VICTIM-DOMAIN]>\r\nFrom: Crazy Domains <39115153@pilatesimperia.com>\r\n\r\nService Suspension Notice\r\n\r\nDear customer,\r\n\r\nWe would like to inform you that, in accordance with our contractual terms, your\r\nservice has been suspended due to a payment issue encountered during automatic\r\nrenewal.\r\n\r\nHere are the details regarding this suspension :\r\n\r\nDomain name\r\nReason for suspension\r\n\r\n[VICTIM-DOMAIN]\r\nFailed automatic renewal\r\n\r\nTo reactivate your service, we invite you to resolve your account by completing\r\nthe pending payment. You can do so directly via the following link :\r\n\r\nReactivate your service\r\n<http://39115153.tous-patron.fr/?id=[VICTIM-DOMAIN]>\r\n\r\nWe remain at your disposal for any further information you may require.\r\n\r\nBest regards,\r\nThe Crazy Domains team' AND email-message:from_ref.value = '39115153@pilatesimperia.com' AND email-message:from_ref.display_name = 'Crazy Domains' AND email-message:message_id = 'Message-ID: <NJQWMZGZ.NDC3NTMXNA.930270010821442026112975401313@pilatesimperia.com>' AND email-message:date = '2026-01-08T21:44:11.000000+0100' AND email-message:subject = 'Service Suspension Notice.' AND email-message:additional_header_fields.x_mailer = 'X-FBL: 1_71_930_0_636F6E746163744061646170746976652E6E7A' AND email-message:x_misp_header = 'Return-Path: <39115153@pilatesimperia.com>X-Original-To: [REDACTED]@[VICTIM-DOMAIN]\r\nDelivered-To: [REDACTED-USER]@[VICTIM-DOMAIN]\r\nAuthentication-Results: charon.[VICTIM-DOMAIN];\r\n        dkim=pass (1024-bit key; unprotected) header.d=pilatesimperia.com header.i=@pilatesimperia.com header.a=rsa-sha256 header.s=out-vmta header.b=kphJoKly;\r\n        dkim-atps=neutral\r\nReceived: from pilatesimperia.com (ip35.ip-54-36-92.eu [54.36.92.35])\r\n        by charon.[VICTIM-DOMAIN] (Postfix) with ESMTPS id 9815C7D4BD\r\n        for <[REDACTED]@[VICTIM-DOMAIN]>; Fri,  9 Jan 2026 07:31:57 +0000 (UTC)\r\nDKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; s=out-vmta; d=pilatesimperia.com;\r\n        h=Content-Type:Mime-Version:Date:Subject:From:List-Unsubscribe:List-Id:\r\n        List-Owner:Message-ID:To;\r\n        bh=dSCZNgK431VfyRW7WyV0BpnN3HTWyLFUECPxWiz+aDQ=;\r\n        b=kphJoKlySZLZpM9V1KO8EA+U+NC9aXD/dGak2gyl8rVy4Xrf98KXnoLyerd1i5DrAIzYAFkenh1+\r\n        YcMZPTWr2HuZnfqPgjgmi9w3IjMFibrk++rvPh9Mjk5eB/XA8RbQti61ltjqSGDQ2DEm7aXAJB2S\r\n        Sj9lcwoU1U6Yun8hiEs=\r\nContent-Type: multipart/alternative; boundary=\\\\\"------------090500090305060505060807\\\\\"\r\nMime-Version: 1.0\r\nDate: Thu, 08 Jan 2026 21:44:11 +0100\r\nSubject: Service Suspension Notice.\r\nFrom: Crazy Domains <39115153@pilatesimperia.com>\r\nX-DCE: true\r\nList-Unsubscribe: <mailto:unsubscribe@[VICTIM-DOMAIN]>\r\nList-Id: \\\\\"Newsletter\\\\\" <newsletter.[VICTIM-DOMAIN]>\r\nList-Owner: <mailto:owner@[VICTIM-DOMAIN]>\r\nPrecedence: bulk\r\nAuto-Submitted: auto-generated\r\nX-Campaign: DON\r\nX-Originating-IP: [192.0.2.1]\r\nImportance: High\r\nX-Auto-Response-Suppress: All\r\nX-BeenThere: [REDACTED]@[VICTIM-DOMAIN]\r\nX-FBL: 1_71_930_0_636F6E746163744061646170746976652E6E7A\r\nMessage-ID: <NJQWMZGZ.NDC3NTMXNA.930270010821442026112975401313@pilatesimperia.com>\r\nTo: adaptive <[REDACTED]@[VICTIM-DOMAIN]>\r\n\r\nContent-Transfer-Encoding: quoted-printable\r\nContent-Type: text/plain; charset=utf-8; format=flowed' AND email-message:x_misp_from_domain = 'pilatesimperia.com' AND email-message:x_misp_return_path = '39115153@pilatesimperia.com' AND email-message:x_misp_ip_src = '54.36.92.35']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-01-16T10:00:44Z",
+      "kill_chain_phases": [
+        {
+          "kill_chain_name": "misp-category",
+          "phase_name": "network"
+        }
+      ],
+      "labels": [
+        "misp:name=\"email\"",
+        "misp:meta-category=\"network\"",
+        "misp:to_ids=\"True\""
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--b47093f7-d77a-4ef8-98df-09cbdfd97c7f",
+      "created_by_ref": "identity--8e80afbb-138d-41da-89f4-1c5dca9da71c",
+      "created": "2026-02-02T09:06:31.000Z",
+      "modified": "2026-02-02T09:06:31.000Z",
+      "description": "Enriched via the email_import module",
+      "pattern": "[url:value = 'http://39115153.tous-patron.fr' AND url:x_misp_host = '39115153.tous-patron.fr' AND url:x_misp_domain = 'tous-patron.fr' AND url:x_misp_fragment = '302 Redirect to http://09e4c1e1.touspatron.fr/?di3d53a&id=[VICTIM-DOMAIN]']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-02-02T09:06:31Z",
+      "kill_chain_phases": [
+        {
+          "kill_chain_name": "misp-category",
+          "phase_name": "network"
+        }
+      ],
+      "labels": [
+        "misp:name=\"url\"",
+        "misp:meta-category=\"network\"",
+        "misp:to_ids=\"True\""
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--34f6796a-ffcc-48ce-b740-b2304343374f",
+      "created_by_ref": "identity--8e80afbb-138d-41da-89f4-1c5dca9da71c",
+      "created": "2026-01-16T11:48:46.000Z",
+      "modified": "2026-01-16T11:48:46.000Z",
+      "pattern": "[domain-name:value = 'pilatesimperia.com' AND domain-name:resolves_to_refs[*].value = '54.36.92.35' AND domain-name:x_misp_text = 'dig pilatesimperia.com\r\n\r\n; <<>> DiG 9.18.39-0ubuntu0.24.04.2-Ubuntu <<>> pilatesimperia.com\r\n;; global options: +cmd\r\n;; Got answer:\r\n;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 52807\r\n;; flags: qr rd ra; QUERY: 1, ANSWER: 50, AUTHORITY: 0, ADDITIONAL: 1\r\n\r\n;; OPT PSEUDOSECTION:\r\n; EDNS: version: 0, flags:; udp: 65494\r\n;; QUESTION SECTION:\r\n;pilatesimperia.com.\t\tIN\tA\r\n\r\n;; ANSWER SECTION:\r\npilatesimperia.com.\t900\tIN\tA\t54.36.92.6\r\npilatesimperia.com.\t900\tIN\tA\t54.36.92.40\r\npilatesimperia.com.\t900\tIN\tA\t54.36.92.34\r\npilatesimperia.com.\t900\tIN\tA\t54.36.92.22\r\npilatesimperia.com.\t900\tIN\tA\t54.36.92.16\r\npilatesimperia.com.\t900\tIN\tA\t54.36.92.27\r\npilatesimperia.com.\t900\tIN\tA\t54.36.92.46\r\npilatesimperia.com.\t900\tIN\tA\t54.36.92.45\r\npilatesimperia.com.\t900\tIN\tA\t54.36.92.30\r\npilatesimperia.com.\t900\tIN\tA\t54.36.92.47\r\npilatesimperia.com.\t900\tIN\tA\t54.36.92.8\r\npilatesimperia.com.\t900\tIN\tA\t54.36.92.29\r\npilatesimperia.com.\t900\tIN\tA\t54.36.92.32\r\npilatesimperia.com.\t900\tIN\tA\t54.36.92.41\r\npilatesimperia.com.\t900\tIN\tA\t54.36.92.39\r\npilatesimperia.com.\t900\tIN\tA\t54.36.92.33\r\npilatesimperia.com.\t900\tIN\tA\t54.36.92.44\r\npilatesimperia.com.\t900\tIN\tA\t54.36.92.12\r\npilatesimperia.com.\t900\tIN\tA\t54.36.92.14\r\npilatesimperia.com.\t900\tIN\tA\t54.36.92.4\r\npilatesimperia.com.\t900\tIN\tA\t54.36.92.49\r\npilatesimperia.com.\t900\tIN\tA\t54.36.92.31\r\npilatesimperia.com.\t900\tIN\tA\t54.36.92.48\r\npilatesimperia.com.\t900\tIN\tA\t54.36.92.23\r\npilatesimperia.com.\t900\tIN\tA\t54.36.92.38\r\npilatesimperia.com.\t900\tIN\tA\t54.36.92.43\r\npilatesimperia.com.\t900\tIN\tA\t54.36.92.28\r\npilatesimperia.com.\t900\tIN\tA\t54.36.92.1\r\npilatesimperia.com.\t900\tIN\tA\t54.36.92.2\r\npilatesimperia.com.\t900\tIN\tA\t54.36.92.11\r\npilatesimperia.com.\t900\tIN\tA\t54.36.92.19\r\npilatesimperia.com.\t900\tIN\tA\t54.36.92.36\r\npilatesimperia.com.\t900\tIN\tA\t54.36.92.7\r\npilatesimperia.com.\t900\tIN\tA\t54.36.92.17\r\npilatesimperia.com.\t900\tIN\tA\t54.36.92.9\r\npilatesimperia.com.\t900\tIN\tA\t54.36.92.37\r\npilatesimperia.com.\t900\tIN\tA\t54.36.92.13\r\npilatesimperia.com.\t900\tIN\tA\t54.36.92.42\r\npilatesimperia.com.\t900\tIN\tA\t54.36.92.3\r\npilatesimperia.com.\t900\tIN\tA\t54.36.92.5\r\npilatesimperia.com.\t900\tIN\tA\t54.36.92.21\r\npilatesimperia.com.\t900\tIN\tA\t54.36.92.20\r\npilatesimperia.com.\t900\tIN\tA\t54.36.92.25\r\npilatesimperia.com.\t900\tIN\tA\t54.36.92.35\r\npilatesimperia.com.\t900\tIN\tA\t54.36.92.18\r\npilatesimperia.com.\t900\tIN\tA\t54.36.92.0\r\npilatesimperia.com.\t900\tIN\tA\t54.36.92.24\r\npilatesimperia.com.\t900\tIN\tA\t54.36.92.15\r\npilatesimperia.com.\t900\tIN\tA\t54.36.92.10\r\npilatesimperia.com.\t900\tIN\tA\t54.36.92.26\r\n\r\n;; Query time: 715 msec\r\n;; SERVER: 127.0.0.53#53(127.0.0.53) (UDP)\r\n;; WHEN: Fri Jan 16 22:57:42 NZDT 2026\r\n;; MSG SIZE  rcvd: 847']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-01-16T11:48:46Z",
+      "kill_chain_phases": [
+        {
+          "kill_chain_name": "misp-category",
+          "phase_name": "network"
+        }
+      ],
+      "labels": [
+        "misp:name=\"domain-ip\"",
+        "misp:meta-category=\"network\"",
+        "misp:to_ids=\"True\""
+      ]
+    },
+    {
+      "type": "identity",
+      "spec_version": "2.1",
+      "id": "identity--c12dfbfb-f723-4412-b528-585d9f0b35be",
+      "created_by_ref": "identity--8e80afbb-138d-41da-89f4-1c5dca9da71c",
+      "created": "2026-01-16T10:56:37.000Z",
+      "modified": "2026-01-16T10:56:37.000Z",
+      "name": "Aprium Energie",
+      "description": "https://www.pappers.fr/entreprise/aprium-energie-907500250",
+      "identity_class": "organization",
+      "contact_information": "address: address:        10 Impasse du Renard\r\naddress:        76000 Rouen\r\naddress:        FR / e-mail: contact@apriumenergie.fr",
+      "labels": [
+        "misp:name=\"organization\"",
+        "misp:meta-category=\"misc\"",
+        "misp:to_ids=\"True\""
+      ],
+      "x_misp_contact_information": "% Abuse contact for '54.36.92.0 - 54.36.92.255' is 'contact@apriumenergie.fr'",
+      "x_misp_type_of_organization": "Installation work on thermal equipment and air conditioning"
+    },
+    {
+      "type": "identity",
+      "spec_version": "2.1",
+      "id": "identity--242152b5-3e2e-48a4-85a9-386f88454056",
+      "created_by_ref": "identity--8e80afbb-138d-41da-89f4-1c5dca9da71c",
+      "created": "2026-01-16T10:57:56.000Z",
+      "modified": "2026-01-16T10:57:56.000Z",
+      "name": "Jade Meimoun",
+      "description": "https://www.pappers.fr/dirigeant/jade_meimoun_1998-12",
+      "identity_class": "individual",
+      "labels": [
+        "misp:name=\"person\"",
+        "misp:meta-category=\"misc\"",
+        "misp:to_ids=\"False\""
+      ],
+      "x_misp_alias": "meimoun jade",
+      "x_misp_first_name": "Jade",
+      "x_misp_last_name": "Meimoun"
+    },
+    {
+      "type": "identity",
+      "spec_version": "2.1",
+      "id": "identity--e8d989b3-db61-46f6-a3ff-09ae07cc7201",
+      "created_by_ref": "identity--8e80afbb-138d-41da-89f4-1c5dca9da71c",
+      "created": "2026-01-16T11:03:33.000Z",
+      "modified": "2026-01-16T11:03:33.000Z",
+      "name": "OVH SAS",
+      "identity_class": "organization",
+      "contact_information": "address: 2 rue Kellermann, 59100 Roubaix, France",
+      "labels": [
+        "misp:name=\"organization\"",
+        "misp:meta-category=\"misc\"",
+        "misp:to_ids=\"False\""
+      ],
+      "x_misp_alias": "OVH"
+    },
+    {
+      "type": "x-misp-object",
+      "spec_version": "2.1",
+      "id": "x-misp-object--516cef30-56dc-4023-82ea-71d133651a83",
+      "created_by_ref": "identity--8e80afbb-138d-41da-89f4-1c5dca9da71c",
+      "created": "2026-01-16T11:14:16.000Z",
+      "modified": "2026-01-16T11:14:16.000Z",
+      "labels": [
+        "misp:name=\"whois\"",
+        "misp:meta-category=\"network\""
+      ],
+      "x_misp_attributes": [
+        {
+          "type": "whois-registrant-email",
+          "object_relation": "registrant-email",
+          "value": "hostmaster@1und1.de",
+          "category": "Attribution",
+          "uuid": "7912ec51-261b-4d4e-a6bc-fddc5e86c5c0"
+        },
+        {
+          "type": "domain",
+          "object_relation": "domain",
+          "value": "tous-patron.fr",
+          "category": "Network activity",
+          "to_ids": true,
+          "uuid": "bb073420-6111-4616-ae98-e8b640c30fb6"
+        },
+        {
+          "type": "hostname",
+          "object_relation": "nameserver",
+          "value": "ns1119.ui-dns.biz",
+          "category": "Network activity",
+          "to_ids": true,
+          "uuid": "11731303-e06b-48b8-8176-426cb649a621"
+        },
+        {
+          "type": "whois-registrar",
+          "object_relation": "registrar",
+          "value": "IONOS SE",
+          "category": "Attribution",
+          "uuid": "b69176bd-2b9c-410c-8fe7-c42a3e9908ac"
+        }
+      ],
+      "x_misp_meta_category": "network",
+      "x_misp_name": "whois"
+    },
+    {
+      "type": "identity",
+      "spec_version": "2.1",
+      "id": "identity--b5d64ca2-41e5-44e5-88a5-21efa4144dbe",
+      "created_by_ref": "identity--8e80afbb-138d-41da-89f4-1c5dca9da71c",
+      "created": "2026-01-16T11:28:25.000Z",
+      "modified": "2026-01-16T11:28:25.000Z",
+      "name": "IONOS SE",
+      "identity_class": "organization",
+      "contact_information": "address: address:                       Ernst-Frey Strasse 9\r\naddress:                       76135 KARLSRUHE\r\ncountry:                       DE / e-mail: hostmaster@1und1.de",
+      "labels": [
+        "misp:name=\"organization\"",
+        "misp:meta-category=\"misc\"",
+        "misp:to_ids=\"True\""
+      ],
+      "x_misp_contact_information": "https://www.ionos.com/",
+      "x_misp_type_of_organization": "Data processing, hosting and related activities"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--9532d8e8-38c6-4294-bfe1-21f86ff5a8e3",
+      "created_by_ref": "identity--8e80afbb-138d-41da-89f4-1c5dca9da71c",
+      "created": "2026-01-16T11:25:06.000Z",
+      "modified": "2026-01-16T11:25:06.000Z",
+      "pattern": "[domain-name:value = 'delphine-mari.com' AND domain-name:resolves_to_refs[*].value = '217.160.0.239' AND domain-name:x_misp_text = 'dig delphine-mari.com ANY\r\n\r\n; <<>> DiG 9.18.39-0ubuntu0.24.04.2-Ubuntu <<>> delphine-mari.com ANY\r\n;; global options: +cmd\r\n;; Got answer:\r\n;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 3288\r\n;; flags: qr rd ra; QUERY: 1, ANSWER: 4, AUTHORITY: 0, ADDITIONAL: 1\r\n\r\n;; OPT PSEUDOSECTION:\r\n; EDNS: version: 0, flags:; udp: 65494\r\n;; QUESTION SECTION:\r\n;delphine-mari.com.\t\tIN\tANY\r\n\r\n;; ANSWER SECTION:\r\ndelphine-mari.com.\t3600\tIN\tA\t217.160.0.239\r\ndelphine-mari.com.\t3600\tIN\tAAAA\t2001:8d8:100f:f000::22f\r\ndelphine-mari.com.\t3600\tIN\tMX\t10 mx00.ionos.fr.\r\ndelphine-mari.com.\t3600\tIN\tMX\t10 mx01.ionos.fr.\r\n\r\n;; Query time: 752 msec\r\n;; SERVER: 127.0.0.53#53(127.0.0.53) (TCP)\r\n;; WHEN: Sat Jan 17 00:18:52 NZDT 2026\r\n;; MSG SIZE  rcvd: 140']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-01-16T11:25:06Z",
+      "kill_chain_phases": [
+        {
+          "kill_chain_name": "misp-category",
+          "phase_name": "network"
+        }
+      ],
+      "labels": [
+        "misp:name=\"domain-ip\"",
+        "misp:meta-category=\"network\"",
+        "misp:to_ids=\"True\""
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--290edd12-9083-4896-a39c-fc536e7a2d61",
+      "created_by_ref": "identity--8e80afbb-138d-41da-89f4-1c5dca9da71c",
+      "created": "2026-02-02T08:54:21.000Z",
+      "modified": "2026-02-02T08:54:21.000Z",
+      "pattern": "[domain-name:value = 'tous-patron.fr' AND domain-name:resolves_to_refs[*].value = '217.160.0.229' AND domain-name:x_misp_text = 'dig tous-patron.fr ANY\r\n\r\n; <<>> DiG 9.18.39-0ubuntu0.24.04.2-Ubuntu <<>> tous-patron.fr ANY\r\n;; global options: +cmd\r\n;; Got answer:\r\n;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 49733\r\n;; flags: qr rd ra; QUERY: 1, ANSWER: 3, AUTHORITY: 0, ADDITIONAL: 1\r\n\r\n;; OPT PSEUDOSECTION:\r\n; EDNS: version: 0, flags:; udp: 65494\r\n;; QUESTION SECTION:\r\n;tous-patron.fr.\t\t\tIN\tANY\r\n\r\n;; ANSWER SECTION:\r\ntous-patron.fr.\t\t3600\tIN\tA\t217.160.0.229\r\ntous-patron.fr.\t\t3600\tIN\tMX\t10 mx01.ionos.fr.\r\ntous-patron.fr.\t\t3600\tIN\tMX\t10 mx00.ionos.fr.\r\n\r\n;; Query time: 528 msec\r\n;; SERVER: 127.0.0.53#53(127.0.0.53) (TCP)\r\n;; WHEN: Sat Jan 17 00:19:31 NZDT 2026\r\n;; MSG SIZE  rcvd: 107']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-02-02T08:54:21Z",
+      "kill_chain_phases": [
+        {
+          "kill_chain_name": "misp-category",
+          "phase_name": "network"
+        }
+      ],
+      "labels": [
+        "misp:name=\"domain-ip\"",
+        "misp:meta-category=\"network\"",
+        "misp:to_ids=\"True\""
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--5dee53fa-0916-452c-b9d1-7a853afbb860",
+      "created_by_ref": "identity--8e80afbb-138d-41da-89f4-1c5dca9da71c",
+      "created": "2026-01-16T11:28:02.000Z",
+      "modified": "2026-01-16T11:28:02.000Z",
+      "pattern": "[autonomous-system:number = '8560' AND autonomous-system:name = 'IONOS SE' AND autonomous-system:x_misp_country = 'DE' AND autonomous-system:x_misp_name = 'ionos-inf' AND autonomous-system:x_misp_organization = 'IONOS SE' AND autonomous-system:x_misp_subnet_announced = '217.160.0.0/16']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-01-16T11:28:02Z",
+      "kill_chain_phases": [
+        {
+          "kill_chain_name": "misp-category",
+          "phase_name": "network"
+        }
+      ],
+      "labels": [
+        "misp:name=\"asn\"",
+        "misp:meta-category=\"network\"",
+        "misp:to_ids=\"True\""
+      ]
+    },
+    {
+      "type": "x-misp-object",
+      "spec_version": "2.1",
+      "id": "x-misp-object--6a40e665-b5cd-4226-9668-ae5fe1b9d538",
+      "created_by_ref": "identity--8e80afbb-138d-41da-89f4-1c5dca9da71c",
+      "created": "2026-01-16T11:45:59.000Z",
+      "modified": "2026-01-16T11:45:59.000Z",
+      "labels": [
+        "misp:name=\"whois\"",
+        "misp:meta-category=\"network\""
+      ],
+      "x_misp_attributes": [
+        {
+          "type": "text",
+          "object_relation": "text",
+          "value": "whois pilatesimperia.com\r\n   Domain Name: PILATESIMPERIA.COM\r\n   Registry Domain ID: 2918140915_DOMAIN_COM-VRSN\r\n   Registrar WHOIS Server: whois.register.it\r\n   Registrar URL: http://www.register.it\r\n   Updated Date: 2025-09-20T07:06:42Z\r\n   Creation Date: 2024-09-19T07:19:52Z\r\n   Registry Expiry Date: 2026-09-19T07:19:52Z\r\n   Registrar: Register SPA\r\n   Registrar IANA ID: 168\r\n   Registrar Abuse Contact Email: abuse@register.it\r\n   Registrar Abuse Contact Phone: +39.05520021555\r\n   Domain Status: ok https://icann.org/epp#ok\r\n   Name Server: NS1.REGISTER.IT\r\n   Name Server: NS2.REGISTER.IT\r\n   DNSSEC: signedDelegation\r\n   DNSSEC DS Data: 46789 13 2 F35913BC28F7CEC06345645CAA63A1F3D7D2EBB685C9BE4934966E729F1282FC\r\n   URL of the ICANN Whois Inaccuracy Complaint Form: https://www.icann.org/wicf/\r\n>>> Last update of whois database: 2026-01-16T11:35:16Z <<<\r\n\r\nFor more information on Whois status codes, please visit https://icann.org/epp\r\n\r\nNOTICE: The expiration date displayed in this record is the date the\r\nregistrar's sponsorship of the domain name registration in the registry is\r\ncurrently set to expire. This date does not necessarily reflect the expiration\r\ndate of the domain name registrant's agreement with the sponsoring\r\nregistrar.  Users may consult the sponsoring registrar's Whois database to\r\nview the registrar's reported date of expiration for this registration.\r\n\r\nTERMS OF USE: You are not authorized to access or query our Whois\r\ndatabase through the use of electronic processes that are high-volume and\r\nautomated except as reasonably necessary to register domain names or\r\nmodify existing registrations; the Data in VeriSign Global Registry\r\nServices' (\"VeriSign\") Whois database is provided by VeriSign for\r\ninformation purposes only, and to assist persons in obtaining information\r\nabout or related to a domain name registration record. VeriSign does not\r\nguarantee its accuracy. By submitting a Whois query, you agree to abide\r\nby the following terms of use: You agree that you may use this Data only\r\nfor lawful purposes and that under no circumstances will you use this Data\r\nto: (1) allow, enable, or otherwise support the transmission of mass\r\nunsolicited, commercial advertising or solicitations via e-mail, telephone,\r\nor facsimile; or (2) enable high volume, automated, electronic processes\r\nthat apply to VeriSign (or its computer systems). The compilation,\r\nrepackaging, dissemination or other use of this Data is expressly\r\nprohibited without the prior written consent of VeriSign. You agree not to\r\nuse electronic processes that are automated and high-volume to access or\r\nquery the Whois database except as reasonably necessary to register\r\ndomain names or modify existing registrations. VeriSign reserves the right\r\nto restrict your access to the Whois database in its sole discretion to ensure\r\noperational stability.  VeriSign may restrict or terminate your access to the\r\nWhois database for failure to abide by these terms of use. VeriSign\r\nreserves the right to modify these terms at any time.\r\n\r\nThe Registry database contains ONLY .COM, .NET, .EDU domains and\r\nRegistrars.\r\nDomain Name: PILATESIMPERIA.COM\r\nRegistry Domain ID: \r\nRegistrar WHOIS Server: whois.register.it\r\nRegistrar URL: http://we.register.it\r\nUpdated Date: 2025-10-22T00:00:00Z\r\nCreation Date: 2024-09-19T00:00:00Z\r\nRegistrar Registration Expiration Date: 2026-09-19T00:00:00Z\r\nRegistrar: REGISTER S.P.A.\r\nRegistrar IANA ID: 168\r\nRegistrar Abuse Contact Email: abuse@register.it\r\nRegistrar Abuse Contact Phone: +39.05520021555\r\nReseller:\r\nDomain Status: ok https://icann.org/epp#ok\r\nRegistry Registrant ID:\r\nRegistrant Name: REDACTED FOR PRIVACY\r\nRegistrant Organization: REDACTED FOR PRIVACY\r\nRegistrant Street: REDACTED FOR PRIVACY\r\nRegistrant City: REDACTED FOR PRIVACY\r\nRegistrant State/Province: IM\r\nRegistrant Postal Code: REDACTED FOR PRIVACY\r\nRegistrant Country: IT\r\nRegistrant Phone: REDACTED.FORPRIVACY\r\nRegistrant Phone Ext:\r\nRegistrant Fax: REDACTED.FORPRIVACY\r\nRegistrant Fax Ext:\r\nRegistrant Email: https://domaincontact.register.it/contact-domain\r\nRegistry Admin ID:\r\nAdmin Name: REDACTED FOR PRIVACY\r\nAdmin Organization: REDACTED FOR PRIVACY\r\nAdmin Street: REDACTED FOR PRIVACY\r\nAdmin City: REDACTED FOR PRIVACY\r\nAdmin State/Province: REDACTED FOR PRIVACY\r\nAdmin Postal Code: REDACTED FOR PRIVACY\r\nAdmin Country: REDACTED FOR PRIVACY\r\nAdmin Phone: REDACTED.FORPRIVACY\r\nAdmin Phone Ext:\r\nAdmin Fax: REDACTED.FORPRIVACY\r\nAdmin Fax Ext:\r\nAdmin Email: https://domaincontact.register.it/contact-domain\r\nRegistry Tech ID:\r\nTech Name: REDACTED FOR PRIVACY\r\nTech Organization: REDACTED FOR PRIVACY\r\nTech Street: REDACTED FOR PRIVACY\r\nTech City: REDACTED FOR PRIVACY\r\nTech State/Province: REDACTED FOR PRIVACY\r\nTech Postal Code: REDACTED FOR PRIVACY\r\nTech Country: REDACTED FOR PRIVACY\r\nTech Phone: REDACTED.FORPRIVACY\r\nTech Phone Ext:\r\nTech Fax: REDACTED.FORPRIVACY\r\nTech Fax Ext:\r\nTech Email: https://domaincontact.register.it/contact-domain\r\nName Server: NS1.REGISTER.IT\r\nName Server: NS2.REGISTER.IT\r\nDNSSEC: signedDelegation\r\nDNSSEC DS Data: 46789 13 2 F35913BC28F7CEC06345645CAA63A1F3D7D2EBB685C9BE4934966E729F1282FC\r\nURL of the ICANN WHOIS Data Problem Reporting System: http://wdprs.internic.net/\r\n>>> Last update of whois database: 2026-01-16T11:35:39Z <<<\r\n\r\nFor more information on Whois status codes, please visit https://icann.org/epp",
+          "category": "Other",
+          "uuid": "150b5553-990b-4b5f-9841-3dc17b823d02"
+        },
+        {
+          "type": "domain",
+          "object_relation": "domain",
+          "value": "pilatesimperia.com",
+          "category": "Network activity",
+          "to_ids": true,
+          "uuid": "42be93f3-52be-427c-bdfd-666494177232"
+        },
+        {
+          "type": "hostname",
+          "object_relation": "nameserver",
+          "value": "ns1.register.it",
+          "category": "Network activity",
+          "to_ids": true,
+          "uuid": "1ba6de9c-db40-4f55-b758-22890107bfa7"
+        },
+        {
+          "type": "whois-registrar",
+          "object_relation": "registrar",
+          "value": "Register SPA",
+          "category": "Attribution",
+          "uuid": "fe5d5743-555f-4e54-b822-62ae8c288bc7"
+        }
+      ],
+      "x_misp_meta_category": "network",
+      "x_misp_name": "whois"
+    },
+    {
+      "type": "x-misp-object",
+      "spec_version": "2.1",
+      "id": "x-misp-object--f95c6400-0cfa-4b91-9115-71a11505fd94",
+      "created_by_ref": "identity--8e80afbb-138d-41da-89f4-1c5dca9da71c",
+      "created": "2026-01-16T11:45:44.000Z",
+      "modified": "2026-01-16T11:45:44.000Z",
+      "labels": [
+        "misp:name=\"whois\"",
+        "misp:meta-category=\"network\""
+      ],
+      "x_misp_attributes": [
+        {
+          "type": "text",
+          "object_relation": "text",
+          "value": "whois snaitrezzano.it\r\n\r\n*********************************************************************\r\n* Please note that the following result could be a subgroup of      *\r\n* the data contained in the database.                               *\r\n*                                                                   *\r\n* Additional information can be visualized at:                      *\r\n* http://web-whois.nic.it                                           *\r\n*********************************************************************\r\n\r\nDomain:             snaitrezzano.it\r\nStatus:             ok\r\nSigned:             no\r\nCreated:            2025-10-11 18:01:08\r\nLast Update:        2025-10-11 18:01:08\r\nExpire Date:        2026-10-11\r\n\r\nRegistrant\r\n  Organization:     Paolo Domenico Natale\r\n  Address:          Via Lucca, 14\r\n                    Milano\r\n                    20152\r\n                    MI\r\n                    IT\r\n  Created:          2025-10-11 18:01:08\r\n  Last Update:      2025-10-11 18:01:08\r\n\r\nAdmin Contact\r\n  Name:             Paolo Domenico Natale\r\n  Organization:     Paolo Domenico Natale\r\n  Address:          Via Lucca, 14\r\n                    Milano\r\n                    20152\r\n                    MI\r\n                    IT\r\n  Created:          2025-10-11 18:01:08\r\n  Last Update:      2025-10-11 18:01:08\r\n\r\nTechnical Contacts\r\n  Name:             Technical Support\r\n  Organization:     Register SpA\r\n  Address:          Viale Giulio Cesare, 29\r\n                    Bergamo\r\n                    24124\r\n                    BG\r\n                    IT\r\n  Created:          2009-09-28 11:01:09\r\n  Last Update:      2024-06-12 12:09:06\r\n\r\nRegistrar\r\n  Organization:     Register S.p.a.\r\n  Name:             REGISTER-REG\r\n  Web:              https://www.register.it\r\n  DNSSEC:           yes\r\n\r\n\r\nNameservers\r\n  ns1.register.it\r\n  ns2.register.it",
+          "category": "Other",
+          "uuid": "1e5f64a9-ca21-44ad-b51e-509fcb2de4ab"
+        },
+        {
+          "type": "domain",
+          "object_relation": "domain",
+          "value": "snaitrezzano.it",
+          "category": "Network activity",
+          "to_ids": true,
+          "uuid": "6e6861c1-3872-4381-9fad-5abd1acca20e"
+        },
+        {
+          "type": "hostname",
+          "object_relation": "nameserver",
+          "value": "ns1.register.it",
+          "category": "Network activity",
+          "to_ids": true,
+          "uuid": "1e3c3573-8859-4582-a23c-146469746b34"
+        },
+        {
+          "type": "whois-registrant-name",
+          "object_relation": "registrant-name",
+          "value": "Paolo Domenico Natale",
+          "category": "Attribution",
+          "uuid": "bb8b1502-10bd-4704-a5d5-81405c5ec5b3"
+        },
+        {
+          "type": "whois-registrar",
+          "object_relation": "registrar",
+          "value": "Register SpA",
+          "category": "Attribution",
+          "uuid": "52725ea6-7d80-4290-b2e5-2da8d474f9d2"
+        }
+      ],
+      "x_misp_meta_category": "network",
+      "x_misp_name": "whois"
+    },
+    {
+      "type": "identity",
+      "spec_version": "2.1",
+      "id": "identity--c63a83fd-5230-496b-a42d-e17341d93877",
+      "created_by_ref": "identity--8e80afbb-138d-41da-89f4-1c5dca9da71c",
+      "created": "2026-01-16T11:43:52.000Z",
+      "modified": "2026-01-16T11:43:52.000Z",
+      "name": "Paolo Domenico Natale",
+      "identity_class": "individual",
+      "contact_information": "address: Address:          Via Lucca, 14\r\n                    Milano\r\n                    20152\r\n                    MI\r\n                    IT",
+      "labels": [
+        "misp:name=\"person\"",
+        "misp:meta-category=\"misc\"",
+        "misp:to_ids=\"False\""
+      ]
+    },
+    {
+      "type": "identity",
+      "spec_version": "2.1",
+      "id": "identity--c8af94a7-ba74-462a-8135-67de78deb73d",
+      "created_by_ref": "identity--8e80afbb-138d-41da-89f4-1c5dca9da71c",
+      "created": "2026-01-16T11:45:18.000Z",
+      "modified": "2026-01-16T11:45:18.000Z",
+      "name": "register.it",
+      "identity_class": "organization",
+      "contact_information": "address: Address:          Viale Giulio Cesare, 29\r\n                    Bergamo\r\n                    24124\r\n                    BG\r\n                    IT",
+      "labels": [
+        "misp:name=\"organization\"",
+        "misp:meta-category=\"misc\"",
+        "misp:to_ids=\"False\""
+      ],
+      "x_misp_alias": "Register SpA",
+      "x_misp_contact_information": "https://www.register.it"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--225cb098-3f65-48a6-957f-9f88b3a01210",
+      "created_by_ref": "identity--8e80afbb-138d-41da-89f4-1c5dca9da71c",
+      "created": "2026-02-03T09:09:38.000Z",
+      "modified": "2026-02-03T09:09:38.000Z",
+      "pattern": "[domain-name:value = '09e4c1e1.touspatron.fr' AND domain-name:resolves_to_refs[*].value = '156.59.189.134' AND domain-name:x_misp_text = 'dig 09e4c1e1.touspatron.fr\r\n\r\n; <<>> DiG 9.18.39-0ubuntu0.24.04.2-Ubuntu <<>> 09e4c1e1.touspatron.fr\r\n;; global options: +cmd\r\n;; Got answer:\r\n;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 8254\r\n;; flags: qr rd ra; QUERY: 1, ANSWER: 2, AUTHORITY: 0, ADDITIONAL: 1\r\n\r\n;; OPT PSEUDOSECTION:\r\n; EDNS: version: 0, flags:; udp: 65494\r\n;; QUESTION SECTION:\r\n;09e4c1e1.touspatron.fr.\t\tIN\tA\r\n\r\n;; ANSWER SECTION:\r\n09e4c1e1.touspatron.fr.\t3600\tIN\tCNAME\tipt29.forex-signalbot.de.\r\nipt29.forex-signalbot.de. 3600\tIN\tA\t156.59.189.134\r\n\r\n;; Query time: 595 msec\r\n;; SERVER: 127.0.0.53#53(127.0.0.53) (UDP)\r\n;; WHEN: Mon Feb 02 21:49:26 NZDT 2026\r\n;; MSG SIZE  rcvd: 105']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-02-03T09:09:38Z",
+      "kill_chain_phases": [
+        {
+          "kill_chain_name": "misp-category",
+          "phase_name": "network"
+        }
+      ],
+      "labels": [
+        "misp:name=\"domain-ip\"",
+        "misp:meta-category=\"network\"",
+        "misp:to_ids=\"True\""
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--8c2e8d89-dbf1-483c-bb2f-a50a640b9492",
+      "created_by_ref": "identity--8e80afbb-138d-41da-89f4-1c5dca9da71c",
+      "created": "2026-02-07T10:19:05.000Z",
+      "modified": "2026-02-07T10:19:05.000Z",
+      "pattern": "[domain-name:value = 'ipt29.forex-signalbot.de' AND domain-name:resolves_to_refs[*].value = '156.59.189.134' AND domain-name:x_misp_text = 'dig 09e4c1e1.touspatron.fr\r\n\r\n; <<>> DiG 9.18.39-0ubuntu0.24.04.2-Ubuntu <<>> 09e4c1e1.touspatron.fr\r\n;; global options: +cmd\r\n;; Got answer:\r\n;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 17348\r\n;; flags: qr rd ra; QUERY: 1, ANSWER: 2, AUTHORITY: 0, ADDITIONAL: 1\r\n\r\n;; OPT PSEUDOSECTION:\r\n; EDNS: version: 0, flags:; udp: 65494\r\n;; QUESTION SECTION:\r\n;09e4c1e1.touspatron.fr.\t\tIN\tA\r\n\r\n;; ANSWER SECTION:\r\n09e4c1e1.touspatron.fr.\t3600\tIN\tCNAME\tipt29.forex-signalbot.de.\r\nipt29.forex-signalbot.de. 3600\tIN\tA\t156.59.189.134\r\n\r\n;; Query time: 333 msec\r\n;; SERVER: 127.0.0.53#53(127.0.0.53) (UDP)\r\n;; WHEN: Tue Feb 03 22:08:08 NZDT 2026\r\n;; MSG SIZE  rcvd: 105']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-02-07T10:19:05Z",
+      "kill_chain_phases": [
+        {
+          "kill_chain_name": "misp-category",
+          "phase_name": "network"
+        }
+      ],
+      "labels": [
+        "misp:name=\"domain-ip\"",
+        "misp:meta-category=\"network\"",
+        "misp:to_ids=\"True\""
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--a17a6e12-b146-4855-8ceb-b7925f452912",
+      "created_by_ref": "identity--8e80afbb-138d-41da-89f4-1c5dca9da71c",
+      "created": "2026-02-03T09:14:53.000Z",
+      "modified": "2026-02-03T09:14:53.000Z",
+      "pattern": "[domain-name:value = 'forex-signalbot.de' AND domain-name:resolves_to_refs[*].value = '209.124.66.20' AND domain-name:x_misp_text = 'dig forex-signalbot.de\r\n\r\n; <<>> DiG 9.18.39-0ubuntu0.24.04.2-Ubuntu <<>> forex-signalbot.de\r\n;; global options: +cmd\r\n;; Got answer:\r\n;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 13450\r\n;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1\r\n\r\n;; OPT PSEUDOSECTION:\r\n; EDNS: version: 0, flags:; udp: 65494\r\n;; QUESTION SECTION:\r\n;forex-signalbot.de.\t\tIN\tA\r\n\r\n;; ANSWER SECTION:\r\nforex-signalbot.de.\t6394\tIN\tA\t209.124.66.20\r\n\r\n;; Query time: 0 msec\r\n;; SERVER: 127.0.0.53#53(127.0.0.53) (UDP)\r\n;; WHEN: Tue Feb 03 22:10:47 NZDT 2026\r\n;; MSG SIZE  rcvd: 63']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-02-03T09:14:53Z",
+      "kill_chain_phases": [
+        {
+          "kill_chain_name": "misp-category",
+          "phase_name": "network"
+        }
+      ],
+      "labels": [
+        "misp:name=\"domain-ip\"",
+        "misp:meta-category=\"network\"",
+        "misp:to_ids=\"True\""
+      ]
+    },
+    {
+      "type": "identity",
+      "spec_version": "2.1",
+      "id": "identity--ffb9f7e7-d686-4c8d-a637-4233742fa3f1",
+      "created_by_ref": "identity--8e80afbb-138d-41da-89f4-1c5dca9da71c",
+      "created": "2026-02-03T09:14:07.000Z",
+      "modified": "2026-02-03T09:14:07.000Z",
+      "name": "AS Hosting, Inc.",
+      "identity_class": "organization",
+      "labels": [
+        "misp:name=\"organization\"",
+        "misp:meta-category=\"misc\"",
+        "misp:to_ids=\"False\""
+      ],
+      "x_misp_alias": "A2HOS"
+    },
+    {
+      "type": "identity",
+      "spec_version": "2.1",
+      "id": "identity--0f8d7072-3507-44c4-a409-fc0e67dfee17",
+      "created_by_ref": "identity--8e80afbb-138d-41da-89f4-1c5dca9da71c",
+      "created": "2026-02-07T10:20:00.000Z",
+      "modified": "2026-02-07T10:20:00.000Z",
+      "name": "Zenlayer",
+      "identity_class": "organization",
+      "labels": [
+        "misp:name=\"organization\"",
+        "misp:meta-category=\"misc\"",
+        "misp:to_ids=\"False\""
+      ],
+      "x_misp_alias": "ZEN-SG"
+    },
+    {
+      "type": "observed-data",
+      "spec_version": "2.1",
+      "id": "observed-data--0771b6bf-e320-4d76-a646-1f9f86a92106",
+      "created_by_ref": "identity--8e80afbb-138d-41da-89f4-1c5dca9da71c",
+      "created": "2026-02-07T10:19:41.000Z",
+      "modified": "2026-02-07T10:19:41.000Z",
+      "first_observed": "2026-02-07T00:00:00Z",
+      "last_observed": "2026-02-07T00:00:00Z",
+      "number_observed": 1,
+      "object_refs": [
+        "autonomous-system--0771b6bf-e320-4d76-a646-1f9f86a92106"
+      ],
+      "labels": [
+        "misp:name=\"asn\"",
+        "misp:meta-category=\"network\"",
+        "misp:to_ids=\"False\""
+      ]
+    },
+    {
+      "type": "autonomous-system",
+      "spec_version": "2.1",
+      "id": "autonomous-system--0771b6bf-e320-4d76-a646-1f9f86a92106",
+      "number": 21859,
+      "name": "ASN 21859",
+      "x_misp_organization": "Zenlayer"
+    },
+    {
+      "type": "note",
+      "spec_version": "2.1",
+      "id": "note--f3f57f24-7389-49bd-ba6a-96ab03be939d",
+      "created_by_ref": "identity--8e80afbb-138d-41da-89f4-1c5dca9da71c",
+      "created": "2026-01-16T07:07:28.000Z",
+      "modified": "2026-01-16T07:07:28.000Z",
+      "abstract": "Email to OVH 2026-01-05",
+      "content": "Hi there,\r\nI received a phishing email sent from infrastructure using an IP block that OVH is the maintainer for. Further investigation shows 50 A records configured in round-robin, likely to evade email rate limits, indicative of active abuse infrastructure.\r\n\r\nThis infrastructure was registered on December 23rd, and the phishing email in question was received on December 24th.\r\n\r\nI am raising this with you directly as I'm not confident the registered organisation for this specific block will take the appropriate action.\r\n\r\nPlease let me know if any other information would be helpful.\r\n\r\nInfrastructure Details:\r\n - IP Range: 51.77.80.0/24\r\n - ASN: AS16276\r\n - RIPE Org: ORG-MR285-RIPE (mersni riedhe)\r\n - Registered: 2025-12-23\r\n\r\nAbuse Activity:\r\n - Type: Phishing, impersonation of domain registrar in New Zealand (https://www.crazydomains.co.nz/)\r\n - Active since: 2025-12-24\r\n - Sender IP: 51.77.80.81\r\n - Sender Domain: snaitrezzano.it (50 A records in round-robin, 51.77.80.50-99)\r\n - snaitrezzano.it is already listed on the Spamhaus Domain Blocklist\r\n\r\nEvidence:\r\n - Email received: 2025-12-24\r\n - From: contact@snaitrezzano.it\r\n - Subject: \"Service Suspension Notice.\"\r\n - Phishing URL: http://86797515.delphine-mari.com/?id=[VICTIM-DOMAIN]\r\n\r\nPhishing Email:\r\n---BEGINS\r\n\r\nReturn-Path: <contact@snaitrezzano.it>\r\nX-Original-To: [REDACTED]@[VICTIM-DOMAIN]\r\nDelivered-To: <redacted>\r\nAuthentication-Results: charon.[VICTIM-DOMAIN];\r\n        dkim=pass (1024-bit key; unprotected) header.d=snaitrezzano.it header.i=@snaitrezzano.it header.a=rsa-sha256 header.s=out-vmta header.b=l/ExUgzk;\r\n        dkim-atps=neutral\r\nReceived: from snaitrezzano.it (ip81.ip-51-77-80.eu [51.77.80.81])\r\n        by charon.[VICTIM-DOMAIN] (Postfix) with ESMTPS id E5E087D5B0\r\n        for <[REDACTED]@[VICTIM-DOMAIN]>; Wed, 24 Dec 2025 20:47:22 +0000 (UTC)\r\nDKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; s=out-vmta; d=snaitrezzano.it;\r\n        h=Content-Type:MIME-Version:Date:Subject:From:Message-ID:To;\r\n        bh=gG/PXWsCg087OJF9YGe3/7dcBpenxxjxgEpwgRsuBlE=;\r\n        b=l/ExUgzkrnv3gdi3rhcbck/etntilUO5a7yYxJ28mFqInZFf8/GHVkvRGCQg6UXrhTje/LjiQaQB\r\n        nf0FP9T5x46qIwVdmwiigrKK6harbnj+BQSsZdTjtD5ax8ulD2nePc0rQT4lCxZv/ZLJ4YIOV8t+\r\n        5CqaAaz/wL3wZaUmmh0=\r\nContent-Type: multipart/alternative; boundary=\"------------090809010002080201040908\"\r\nMIME-Version: 1.0\r\nDate: Wed, 24 Dec 2025 20:32:35 +0100\r\nSubject: Service Suspension Notice.\r\nFrom: Crazy Domains <contact@snaitrezzano.it>\r\nX-FBL: 1_58_831_0_636F6E746163744061646170746976652E6E7A\r\nMessage-ID: <MZG0NDC3.MJI2NZYXMG.831704122420322025351675124782@snaitrezzano.it>\r\nTo: adaptive <[REDACTED]@[VICTIM-DOMAIN]>\r\n\r\nService Suspension Notice\r\n\r\nDear customer,\r\n\r\nWe would like to inform you that, in accordance with our contractual terms, your\r\nservice has been suspended due to a payment issue encountered during automatic\r\nrenewal.\r\n\r\nHere are the details regarding this suspension :\r\n\r\nDomain name\r\nReason for suspension\r\n\r\n[VICTIM-DOMAIN]\r\nFailed automatic renewal\r\n\r\nTo reactivate your service, we invite you to resolve your account by completing\r\nthe pending payment. You can do so directly via the following link :\r\n\r\nReactivate your service\r\n<http://86797515.delphine-mari.com/?id=[VICTIM-DOMAIN]>\r\n\r\nWe remain at your disposal for any further information you may require.\r\n\r\nBest regards,\r\nThe Crazy Domains team\r\n\r\n--- ENDS\r\n\r\n\r\n\r\nCheers,\r\nH\r\n\r\n----------------------------------\r\n\r\nAuto-Reply from OVH:\r\n\r\nHello,\r\n\r\nThank you for taking the time to contact the OVHcloud Trust & Safety Team. This is an automatic reply from our system.\r\nThe information provided does not allow us to automatically identify the customer or service corresponding to your report. Thus, we advise you to fulfill the following abuse form to be able to take the required measures on :\r\n\r\nhttps://www.ovhcloud.com/en/abuse/\r\n\r\nBy fulfilling this form, please describe the case as precisely as possible in a few words.\r\n\r\nOVHcloud conducts its activities in compliance with applicable laws and we prohibit the use of our services for purposes contrary to our general terms and conditions.\r\n\r\nIt is important to note that most of our services are rented \"unmanaged\" to our customers. This means that we only have access to the power supply of the server. We can only maintain the hardware of the infrastructure and we are prevented from being able to access to its content (no root, administrator, or user access).\r\n\r\nPlease note that we cannot guarantee that your request will achieve the desired outcome. We are subject to the policies of ICANN of the respective registries and, where applicable, local and international laws.\r\nWe are also bound by the contracts with our customers. As we do not manage the server, we are technically not able to modify or delete any content, or to prevent any abusive behavior by intervening directly on the server.\r\n\r\nWe are able to block a domain only in the case of clear and obvious violations of the law. Before practicing any blocking of a domain, we usually try to contact the domain owner to give him the opportunity to solve the problem before taking any action on our side.\r\n\r\nFurthermore, we are not allowed to disclose the customer information to third parties. Therefore, before reporting us any abuse, we can only advise you to check if it is not better to fill a complaint or to contact directly the domain holder to achieve the desired outcome.\r\n\r\nRegards,\r\n\r\nThe OVHcloud Trust & Safety Team.\r\n\r\n\r\n----------------------------------\r\n\r\nSubmission confirmation from OVH:\r\n \r\n Hello,\r\n\r\nThank you for taking the time to contact the OVHcloud Trust & Safety Team, this message confirms that we did receive your report, and created the Abuse Ticket #BTWZPLXMQZ to reference it.\r\n\r\nOVHcloud conducts its activities in conformity with applicable laws, we forbid any use of our products that don't conform to our general terms and conditions of services.\r\n\r\nIt's important to note that most of our services are rented \"unmanaged\" to our customers. This means that we only have physical access to the server and cannot access its content (no root, administrator, or user access). We are technically unable to modify or delete content, or making an abusive behavior stop by intervening directly on the server, as it is not managed by us.\r\n\r\nWe will however transmit the technical information of your report to the customer managing the infrastructure concerned, and we will follow this ticket to its resolution.\r\nYou'll find at the end of this e-mail the technical details you've sent us, for reference.\r\n\r\nCordially,\r\n\r\nThe OVHcloud Trust & Safety Team.\r\n\r\n-----\r\n\r\nHello,\r\n\r\nYou recently submitted a report which led to the opening of the  Ticket abuse#BTWZPLXMQZ\r\n\r\nFor your information, this ticked has been resolved and is now closed.\r\n\r\nKind regards,\r\n\r\nThe OVHcloud Trust & Safety Team.",
+      "object_refs": [
+        "grouping--fee799d8-2ea9-4819-bcb3-16efca4b1bf8"
+      ],
+      "labels": [
+        "misp:data-layer=\"Event Report\""
+      ]
+    },
+    {
+      "type": "note",
+      "spec_version": "2.1",
+      "id": "note--34832379-5a9e-4e25-9d9e-dc6f0f1485c3",
+      "created_by_ref": "identity--8e80afbb-138d-41da-89f4-1c5dca9da71c",
+      "created": "2026-02-04T09:09:31.000Z",
+      "modified": "2026-02-04T09:09:31.000Z",
+      "abstract": "Email to CrazyDomains 2026-02-03",
+      "content": "Date: Tue, 3 Feb 2026 at 21:45\r\nSubject: Re: Crazy Domains Customer Support [OEML-3105099]\r\nTo: <support@crazydomains.com>\r\n\r\n\r\nHI Juvie,\r\n\r\nThanks for your help today, I really appreciate it.\r\n\r\nBelow are the two emails I received, and a screenshot of the phishing page from the link in the second email.\r\n\r\nPLEASE NOTE:\r\n\r\n-   I did not submit my actual account name or password, my account remains safe.\r\n-   I visited the link in a secure sandbox, not my own device.\r\n-   I added all the square brackets to the URLs, IPs, and email addresses in the email content to reduce the risk of someone accidentally clicking something. They were not in the original emails.\r\n\r\nIf you have any other questions, please let me know and I'd be more than happy to help.\r\n\r\n\r\nCheers,\r\n[REDACTED-NAME]\r\n\r\n\r\nEMAIL 1------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------\r\n\r\nReturn-Path: <contact[@]snaitrezzano[.]it>X-Original-To: [REDACTED][@][VICTIM-DOMAIN]\r\n\r\nAuthentication-Results: charon[.][VICTIM-DOMAIN];\r\ndkim=pass (1024-bit key; unprotected) header.d=snaitrezzano[.]it header.i=@snaitrezzano[.]it header.a=rsa-sha256 header.s=out-vmta header.b=l/ExUgzk;\r\ndkim-atps=neutral\r\nReceived: from snaitrezzano[.]it (ip81[.]ip-51-77-80[.]eu [51[.]77[.]80[.]81])\r\nby charon[.][VICTIM-DOMAIN] (Postfix) with ESMTPS id E5E087D5B0\r\nfor <[REDACTED][@][VICTIM-DOMAIN]>; Wed, 24 Dec 2025 20:47:22 +0000 (UTC)\r\nDKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; s=out-vmta; d=snaitrezzano[.]it;\r\nh=Content-Type:MIME-Version:Date:Subject:From:Message-ID:To;\r\nbh=gG/PXWsCg087OJF9YGe3/7dcBpenxxjxgEpwgRsuBlE=;\r\nb=l/ExUgzkrnv3gdi3rhcbck/etntilUO5a7yYxJ28mFqInZFf8/GHVkvRGCQg6UXrhTje/LjiQaQB\r\nnf0FP9T5x46qIwVdmwiigrKK6harbnj+BQSsZdTjtD5ax8ulD2nePc0rQT4lCxZv/ZLJ4YIOV8t+\r\n5CqaAaz/wL3wZaUmmh0=\r\nContent-Type: multipart/alternative; boundary=\"------------090809010002080201040908\"\r\nMIME-Version: 1.0\r\nDate: Wed, 24 Dec 2025 20:32:35 +0100\r\nSubject: Service Suspension Notice.\r\nFrom: Crazy Domains <contact[@]snaitrezzano[.]it>\r\nX-FBL: 1_58_831_0_636F6E746163744061646170746976652E6E7A\r\nMessage-ID: <MZG0NDC3.MJI2NZYXMG.831704122420322025351675124782[@]snaitrezzano[.]it>\r\nTo: adaptive <[REDACTED][@][VICTIM-DOMAIN]>\r\n\r\n\r\nService Suspension Notice\r\n\r\nDear customer,\r\n\r\nWe would like to inform you that, in accordance with our contractual terms, your service has been suspended due to a payment issue encountered during automatic renewal.\r\n\r\nHere are the details regarding this suspension :\r\nDomain name\r\nReason for suspension\r\n\r\n[VICTIM-DOMAIN]\r\nFailed automatic renewal\r\n\r\nTo reactivate your service, we invite you to resolve your account by completing the pending payment. You can do so directly via the following link :\r\n\r\nReactivate your service <hxxp[://]86797515[.]delphine-mari[.]com/?id=[VICTIM-DOMAIN]>\r\n\r\nWe remain at your disposal for any further information you may require.\r\n\r\nBest regards,\r\nThe Crazy Domains team\r\n\r\n------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------\r\nEMAIL 1 ENDS\r\n\r\nEMAIL 2\r\n------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------\r\n\r\nReturn-Path: <39115153[@]pilatesimperia[.]com>X-Original-To: [REDACTED][@][VICTIM-DOMAIN]\r\nAuthentication-Results: charon[.][VICTIM-DOMAIN];\r\ndkim=pass (1024-bit key; unprotected) header.d=pilatesimperia.com header.i=@pilatesimperia[.]com header.a=rsa-sha256 header.s=out-vmta header.b=kphJoKly;\r\ndkim-atps=neutral\r\nReceived: from pilatesimperia[.]com (ip35[.]ip-54-36-92[.]eu [54[.]36[.]92[.]35])\r\nby charon[.][VICTIM-DOMAIN] (Postfix) with ESMTPS id 9815C7D4BD\r\nfor <[REDACTED][@][VICTIM-DOMAIN]>; Fri, 9 Jan 2026 07:31:57 +0000 (UTC)\r\nDKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; s=out-vmta; d=pilatesimperia[.]com;\r\nh=Content-Type:Mime-Version:Date:Subject:From:List-Unsubscribe:List-Id:\r\nList-Owner:Message-ID:To;\r\nbh=dSCZNgK431VfyRW7WyV0BpnN3HTWyLFUECPxWiz+aDQ=;\r\nb=kphJoKlySZLZpM9V1KO8EA+U+NC9aXD/dGak2gyl8rVy4Xrf98KXnoLyerd1i5DrAIzYAFkenh1+\r\nYcMZPTWr2HuZnfqPgjgmi9w3IjMFibrk++rvPh9Mjk5eB/XA8RbQti61ltjqSGDQ2DEm7aXAJB2S\r\nSj9lcwoU1U6Yun8hiEs=\r\nContent-Type: multipart/alternative; boundary=\"------------090500090305060505060807\"\r\nMime-Version: 1.0\r\nDate: Thu, 08 Jan 2026 21:44:11 +0100\r\nSubject: Service Suspension Notice.\r\nFrom: Crazy Domains <39115153[@]pilatesimperia[.]com>\r\nX-DCE: true\r\nList-Unsubscribe: <mailto:[REDACTED][@][VICTIM-DOMAIN]>\r\nList-Id: \"Newsletter\" <newsletter[.][VICTIM-DOMAIN]>\r\nList-Owner: <mailto:[REDACTED][@][VICTIM-DOMAIN]>\r\nPrecedence: bulk\r\nAuto-Submitted: auto-generated\r\nX-Campaign: DON\r\nX-Originating-IP: [192[.]0[.]2[.]1]\r\nImportance: High\r\nX-Auto-Response-Suppress: All\r\nX-BeenThere: [REDACTED][@][VICTIM-DOMAIN]\r\nX-FBL: 1_71_930_0_636F6E746163744061646170746976652E6E7A\r\nMessage-ID: <NJQWMZGZ.NDC3NTMXNA.930270010821442026112975401313[@]pilatesimperia[.]com>\r\nTo: adaptive <[REDACTED][@][VICTIM-DOMAIN]>\r\n\r\nService Suspension Notice\r\n\r\nDear customer,\r\n\r\nWe would like to inform you that, in accordance with our contractual terms, your\r\nservice has been suspended due to a payment issue encountered during automatic\r\nrenewal.\r\n\r\nHere are the details regarding this suspension :\r\n\r\nDomain name\r\nReason for suspension\r\n\r\n[VICTIM-DOMAIN]\r\nFailed automatic renewal\r\n\r\nTo reactivate your service, we invite you to resolve your account by completing\r\nthe pending payment. You can do so directly via the following link :\r\n\r\nReactivate your service\r\n<hxxp[://]39115153[.]tous-patron[.]fr/?id=[VICTIM-DOMAIN]>\r\n\r\nWe remain at your disposal for any further information you may require.\r\n\r\nBest regards,\r\nThe Crazy Domains team\r\n\r\n------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------\r\nEMAIL 2 ENDS\r\n\r\n---\r\nEmail from Crazy Domains Support\r\n\r\n\r\nFrom: Crazy Domains Support <support@crazydomains.com>\r\nDate: Wed, 4 Feb 2026, 5:29 pm\r\nSubject: Re: Crazy Domains Customer Support [OEML-3105099]\r\n\r\n\r\n\r\n\r\n\r\nDear ,\r\n\r\nThank you for sharing detailed information about the phishing emails you received. We have already reported this to our relevant team for investigation.\r\n\r\nPlease note that all official communications from Crazy Domains are sent from @crazydomains.com email address, and they are always sent to the email address we have on file.\r\n\r\nWe also noticed that the phishing emails were sent to one of your accounts under the [VICTIM-DOMAIN] domain. We recommend contacting your email hosting provider to review your DNS records specifically SPF, DKIM, and DMARC, to help prevent phishing, spoofing, and unauthorized use of your domain.\r\n\r\nKind Regards,\r\nCustomer Support\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\nOn Tue, 3 Feb 2026 at 13:15, Crazy Domains Support <support@crazydomains.com> wrote:\r\n\r\n> \r\n> Dear ,\r\n> \r\n> Kindly reply to this email and attach the screenshots of the emails you are receiving.\r\n> \r\n> Kind Regards,\r\n> Juvie\r\n> Customer Support\r\n> \r\n> How did you find my response?  | \r\n> \r\n> Your services are subject to the terms and conditions set forth in our Service Agreement, which you accepted at the time of purchase. Please note, in accordance with our Privacy Policy, we will continue to send you notices and other important information affecting your account or services in order to fulfill our obligations to you.\r\n> \r\n> ©2026 by Crazy Domains. All Rights Reserved.\r\n> \r\n> -- Do not delete or change the following text --\r\n> Security code: ^^+oDMzYK+fPJkxS2iMZ625w==^^\r\n> The above code helps us secure your communication.",
+      "object_refs": [
+        "grouping--fee799d8-2ea9-4819-bcb3-16efca4b1bf8"
+      ],
+      "labels": [
+        "misp:data-layer=\"Event Report\""
+      ]
+    },
+    {
+      "type": "note",
+      "spec_version": "2.1",
+      "id": "note--3ae0a6b1-d017-4d9f-9cfb-8253ce5e1578",
+      "created_by_ref": "identity--8e80afbb-138d-41da-89f4-1c5dca9da71c",
+      "created": "2026-02-04T08:35:00.000Z",
+      "modified": "2026-02-04T08:35:00.000Z",
+      "abstract": "Google Safe Browsing",
+      "content": "http://09e4c1e1.touspatron.fr/\r\nReported via https://safebrowsing.google.com/safebrowsing/report_phish/",
+      "object_refs": [
+        "grouping--fee799d8-2ea9-4819-bcb3-16efca4b1bf8"
+      ],
+      "labels": [
+        "misp:data-layer=\"Event Report\""
+      ]
+    },
+    {
+      "type": "attack-pattern",
+      "spec_version": "2.1",
+      "id": "attack-pattern--2b742742-28c3-4e1b-bab7-8350d6300fa7",
+      "created": "2026-02-07T10:25:00.000Z",
+      "modified": "2026-02-07T10:25:00.000Z",
+      "name": "Spearphishing Link",
+      "description": "Adversaries may send spearphishing emails with a malicious link in an attempt to gain access to victim systems. Spearphishing with a link is a specific variant of spearphishing. It is different from other forms of spearphishing in that it employs the use of links to download malware contained in email, instead of attaching malicious files to the email itself, to avoid defenses that may inspect email attachments. Spearphishing may also involve social engineering techniques, such as posing as a trusted source.\n\nAll forms of spearphishing are electronically delivered social engineering targeted at a specific individual, company, or industry. In this case, the malicious emails contain links. Generally, the links will be accompanied by social engineering text and require the user to actively click or copy and paste a URL into a browser, leveraging [User Execution](https://attack.mitre.org/techniques/T1204). The visited website may compromise the web browser using an exploit, or the user will be prompted to download applications, documents, zip files, or even executables depending on the pretext for the email in the first place.\n\nAdversaries may also include links that are intended to interact directly with an email reader, including embedded images intended to exploit the end system directly. Additionally, adversaries may use seemingly benign links that abuse special characters to mimic legitimate websites (known as an \"IDN homograph attack\").(Citation: CISA IDN ST05-016) URLs may also be obfuscated by taking advantage of quirks in the URL schema, such as the acceptance of integer- or hexadecimal-based hostname formats and the automatic discarding of text before an “@” symbol: for example, `hxxp://google.com@1157586937`.(Citation: Mandiant URL Obfuscation 2023)\n\nAdversaries may also utilize links to perform consent phishing/spearphishing campaigns to [Steal Application Access Token](https://attack.mitre.org/techniques/T1528)s that grant immediate access to the victim environment. For example, a user may be lured into granting adversaries permissions/access via a malicious OAuth 2.0 request URL that when accepted by the user provide permissions/access for malicious applications.(Citation: Trend Micro Pawn Storm OAuth 2017)(Citation: Microsoft OAuth 2.0 Consent Phishing 2021) These stolen access tokens allow the adversary to perform various actions on behalf of the user via API calls.(Citation: Microsoft OAuth 2.0 Consent Phishing 2021)\n\nSimilarly, malicious links may also target device-based authorization, such as OAuth 2.0 device authorization grant flow which is typically used to authenticate devices without UIs/browsers. Known as “device code phishing,” an adversary may send a link that directs the victim to a malicious authorization page where the user is tricked into entering a code/credentials that produces a device token.(Citation: SecureWorks Device Code Phishing 2021)(Citation: Netskope Device Code Phishing 2021)(Citation: Optiv Device Code Phishing 2021)",
+      "kill_chain_phases": [
+        {
+          "kill_chain_name": "attack-Identity-Provider",
+          "phase_name": "initial-access"
+        },
+        {
+          "kill_chain_name": "attack-Linux",
+          "phase_name": "initial-access"
+        },
+        {
+          "kill_chain_name": "attack-macOS",
+          "phase_name": "initial-access"
+        },
+        {
+          "kill_chain_name": "attack-Office-Suite",
+          "phase_name": "initial-access"
+        },
+        {
+          "kill_chain_name": "attack-SaaS",
+          "phase_name": "initial-access"
+        },
+        {
+          "kill_chain_name": "attack-Windows",
+          "phase_name": "initial-access"
+        }
+      ],
+      "labels": [
+        "misp:galaxy-name=\"Attack Pattern\"",
+        "misp:galaxy-type=\"mitre-attack-pattern\"",
+        "misp-galaxy:mitre-attack-pattern=\"Spearphishing Link - T1566.002\""
+      ],
+      "external_references": [
+        {
+          "source_name": "mitre-attack",
+          "external_id": "T1566.002"
+        },
+        {
+          "source_name": "url",
+          "url": "https://attack.mitre.org/techniques/T1566/002"
+        },
+        {
+          "source_name": "url",
+          "url": "https://blog.trendmicro.com/trendlabs-security-intelligence/pawn-storm-abuses-open-authentication-advanced-social-engineering-attacks"
+        },
+        {
+          "source_name": "url",
+          "url": "https://docs.microsoft.com/en-us/microsoft-365/security/office-365-security/anti-spoofing-protection?view=o365-worldwide"
+        },
+        {
+          "source_name": "url",
+          "url": "https://us-cert.cisa.gov/ncas/tips/ST05-016"
+        },
+        {
+          "source_name": "url",
+          "url": "https://web.archive.org/web/20210708014107/https://www.cyber.gov.au/sites/default/files/2019-03/spoof_email_sender_policy_framework.pdf"
+        },
+        {
+          "source_name": "url",
+          "url": "https://www.mandiant.com/resources/blog/url-obfuscation-schema-abuse"
+        },
+        {
+          "source_name": "url",
+          "url": "https://www.microsoft.com/security/blog/2021/07/14/microsoft-delivers-comprehensive-solution-to-battle-rise-in-consent-phishing-emails/"
+        },
+        {
+          "source_name": "url",
+          "url": "https://www.netskope.com/blog/new-phishing-attacks-exploiting-oauth-authorization-flows-part-1"
+        },
+        {
+          "source_name": "url",
+          "url": "https://www.optiv.com/insights/source-zero/blog/microsoft-365-oauth-device-code-flow-and-phishing"
+        },
+        {
+          "source_name": "url",
+          "url": "https://www.secureworks.com/blog/oauths-device-code-flow-abused-in-phishing-attacks"
+        }
+      ],
+      "x_misp_mitre_data_sources": [
+        "Application Log: Application Log Content",
+        "Network Traffic: Network Traffic Content",
+        "Network Traffic: Network Traffic Flow"
+      ],
+      "x_misp_mitre_platforms": [
+        "Identity Provider",
+        "Linux",
+        "macOS",
+        "Office Suite",
+        "SaaS",
+        "Windows"
+      ]
+    },
+    {
+      "type": "attack-pattern",
+      "spec_version": "2.1",
+      "id": "attack-pattern--17fd695c-b88c-455a-a3d1-43b6cb728532",
+      "created": "2026-02-07T10:25:00.000Z",
+      "modified": "2026-02-07T10:25:00.000Z",
+      "name": "DNS/Passive DNS",
+      "description": "Adversaries may search DNS data for information about victims that can be used during targeting. DNS information may include a variety of details, including registered name servers as well as records that outline addressing for a target’s subdomains, mail servers, and other hosts.\n\nAdversaries may search DNS data to gather actionable information. Threat actors can query nameservers for a target organization directly, or search through centralized repositories of logged DNS query responses (known as passive DNS).(Citation: DNS Dumpster)(Citation: Circl Passive DNS) Adversaries may also seek and target DNS misconfigurations/leaks that reveal information about internal networks. Information from these sources may reveal opportunities for other forms of reconnaissance (ex: [Search Victim-Owned Websites](https://attack.mitre.org/techniques/T1594) or [Search Open Websites/Domains](https://attack.mitre.org/techniques/T1593)), establishing operational resources (ex: [Acquire Infrastructure](https://attack.mitre.org/techniques/T1583) or [Compromise Infrastructure](https://attack.mitre.org/techniques/T1584)), and/or initial access (ex: [External Remote Services](https://attack.mitre.org/techniques/T1133) or [Trusted Relationship](https://attack.mitre.org/techniques/T1199)).",
+      "kill_chain_phases": [
+        {
+          "kill_chain_name": "attack-PRE",
+          "phase_name": "reconnaissance"
+        }
+      ],
+      "labels": [
+        "misp:galaxy-name=\"Attack Pattern\"",
+        "misp:galaxy-type=\"mitre-attack-pattern\"",
+        "misp-galaxy:mitre-attack-pattern=\"DNS/Passive DNS - T1596.001\""
+      ],
+      "external_references": [
+        {
+          "source_name": "mitre-attack",
+          "external_id": "T1596.001"
+        },
+        {
+          "source_name": "url",
+          "url": "https://attack.mitre.org/techniques/T1596/001"
+        },
+        {
+          "source_name": "url",
+          "url": "https://dnsdumpster.com/"
+        },
+        {
+          "source_name": "url",
+          "url": "https://www.circl.lu/services/passive-dns/"
+        }
+      ],
+      "x_misp_mitre_platforms": [
+        "PRE"
+      ]
+    },
+    {
+      "type": "attack-pattern",
+      "spec_version": "2.1",
+      "id": "attack-pattern--ef67e13e-5598-4adc-bdb2-998225874fa9",
+      "created": "2026-02-07T10:25:00.000Z",
+      "modified": "2026-02-07T10:25:00.000Z",
+      "name": "Malicious Link",
+      "description": "An adversary may rely upon a user clicking a malicious link in order to gain execution. Users may be subjected to social engineering to get them to click on a link that will lead to code execution. This user action will typically be observed as follow-on behavior from [Spearphishing Link](https://attack.mitre.org/techniques/T1566/002). Clicking on a link may also lead to other execution techniques such as exploitation of a browser or application vulnerability via [Exploitation for Client Execution](https://attack.mitre.org/techniques/T1203). Links may also lead users to download files that require execution via [Malicious File](https://attack.mitre.org/techniques/T1204/002).",
+      "kill_chain_phases": [
+        {
+          "kill_chain_name": "attack-Linux",
+          "phase_name": "execution"
+        },
+        {
+          "kill_chain_name": "attack-macOS",
+          "phase_name": "execution"
+        },
+        {
+          "kill_chain_name": "attack-Windows",
+          "phase_name": "execution"
+        }
+      ],
+      "labels": [
+        "misp:galaxy-name=\"Attack Pattern\"",
+        "misp:galaxy-type=\"mitre-attack-pattern\"",
+        "misp-galaxy:mitre-attack-pattern=\"Malicious Link - T1204.001\""
+      ],
+      "external_references": [
+        {
+          "source_name": "mitre-attack",
+          "external_id": "T1204.001"
+        },
+        {
+          "source_name": "url",
+          "url": "https://attack.mitre.org/techniques/T1204/001"
+        }
+      ],
+      "x_misp_mitre_data_sources": [
+        "File: File Creation",
+        "Network Traffic: Network Connection Creation",
+        "Network Traffic: Network Traffic Content"
+      ],
+      "x_misp_mitre_platforms": [
+        "Linux",
+        "macOS",
+        "Windows"
+      ]
+    },
+    {
+      "type": "attack-pattern",
+      "spec_version": "2.1",
+      "id": "attack-pattern--69e5226d-05dc-4f15-95d7-44f5ed78d06e",
+      "created": "2026-02-07T10:25:00.000Z",
+      "modified": "2026-02-07T10:25:00.000Z",
+      "name": "Web Portal Capture",
+      "description": "Adversaries may install code on externally facing portals, such as a VPN login page, to capture and transmit credentials of users who attempt to log into the service. For example, a compromised login page may log provided user credentials before logging the user in to the service.\n\nThis variation on input capture may be conducted post-compromise using legitimate administrative access as a backup measure to maintain network access through [External Remote Services](https://attack.mitre.org/techniques/T1133) and [Valid Accounts](https://attack.mitre.org/techniques/T1078) or as part of the initial compromise by exploitation of the externally facing web service.(Citation: Volexity Virtual Private Keylogging)",
+      "kill_chain_phases": [
+        {
+          "kill_chain_name": "attack-Linux",
+          "phase_name": "collection"
+        },
+        {
+          "kill_chain_name": "attack-macOS",
+          "phase_name": "collection"
+        },
+        {
+          "kill_chain_name": "attack-Windows",
+          "phase_name": "collection"
+        },
+        {
+          "kill_chain_name": "attack-Linux",
+          "phase_name": "credential-access"
+        },
+        {
+          "kill_chain_name": "attack-macOS",
+          "phase_name": "credential-access"
+        },
+        {
+          "kill_chain_name": "attack-Windows",
+          "phase_name": "credential-access"
+        }
+      ],
+      "labels": [
+        "misp:galaxy-name=\"Attack Pattern\"",
+        "misp:galaxy-type=\"mitre-attack-pattern\"",
+        "misp-galaxy:mitre-attack-pattern=\"Web Portal Capture - T1056.003\""
+      ],
+      "external_references": [
+        {
+          "source_name": "mitre-attack",
+          "external_id": "T1056.003"
+        },
+        {
+          "source_name": "url",
+          "url": "https://attack.mitre.org/techniques/T1056/003"
+        },
+        {
+          "source_name": "url",
+          "url": "https://www.volexity.com/blog/2015/10/07/virtual-private-keylogging-cisco-web-vpns-leveraged-for-access-and-persistence/"
+        }
+      ],
+      "x_misp_mitre_data_sources": [
+        "File: File Modification"
+      ],
+      "x_misp_mitre_platforms": [
+        "Linux",
+        "macOS",
+        "Windows"
+      ]
+    },
+    {
+      "type": "relationship",
+      "spec_version": "2.1",
+      "id": "relationship--8ee15963-2dba-455a-9b17-d390c240de62",
+      "created": "2026-01-05T06:05:09.000Z",
+      "modified": "2026-01-05T06:05:09.000Z",
+      "relationship_type": "contains",
+      "source_ref": "indicator--251841e6-e6c1-4c71-8653-64b9e1518cbc",
+      "target_ref": "indicator--c7895e7f-cc96-45a7-b24a-152586909623"
+    },
+    {
+      "type": "relationship",
+      "spec_version": "2.1",
+      "id": "relationship--1dc58d35-e6d6-4a3d-9cd3-0ea218b9121c",
+      "created": "2026-01-05T06:30:26.000Z",
+      "modified": "2026-01-05T06:30:26.000Z",
+      "relationship_type": "contains",
+      "source_ref": "indicator--251841e6-e6c1-4c71-8653-64b9e1518cbc",
+      "target_ref": "indicator--f221b81b-195c-4c04-907b-56f3052641d0"
+    },
+    {
+      "type": "relationship",
+      "spec_version": "2.1",
+      "id": "relationship--4d36a21e-41c5-4075-aaeb-63ca3720a274",
+      "created": "2026-01-05T06:20:54.000Z",
+      "modified": "2026-01-05T06:20:54.000Z",
+      "relationship_type": "contains",
+      "source_ref": "indicator--c7895e7f-cc96-45a7-b24a-152586909623",
+      "target_ref": "x-misp-object--ba676bfa-8379-4cb8-93dc-a9820979ea81"
+    },
+    {
+      "type": "relationship",
+      "spec_version": "2.1",
+      "id": "relationship--af748c01-a1cd-4efa-bc1a-ace537ed003b",
+      "created": "2026-01-16T11:14:30.000Z",
+      "modified": "2026-01-16T11:14:30.000Z",
+      "relationship_type": "registered-to",
+      "source_ref": "x-misp-object--ba676bfa-8379-4cb8-93dc-a9820979ea81",
+      "target_ref": "identity--b5d64ca2-41e5-44e5-88a5-21efa4144dbe"
+    },
+    {
+      "type": "relationship",
+      "spec_version": "2.1",
+      "id": "relationship--0e179880-1bb9-42bd-95fd-3d6b07fdfcb1",
+      "created": "2026-01-16T11:47:20.000Z",
+      "modified": "2026-01-16T11:47:20.000Z",
+      "relationship_type": "contains",
+      "source_ref": "indicator--f221b81b-195c-4c04-907b-56f3052641d0",
+      "target_ref": "x-misp-object--f95c6400-0cfa-4b91-9115-71a11505fd94"
+    },
+    {
+      "type": "relationship",
+      "spec_version": "2.1",
+      "id": "relationship--f6e5c9d8-d17e-4759-a660-90fcd8cbe08a",
+      "created": "2026-01-05T06:38:41.000Z",
+      "modified": "2026-01-05T06:38:41.000Z",
+      "relationship_type": "contains",
+      "source_ref": "indicator--9924c34f-201f-4b01-a6f8-39ec8ca75e7a",
+      "target_ref": "indicator--f221b81b-195c-4c04-907b-56f3052641d0"
+    },
+    {
+      "type": "relationship",
+      "spec_version": "2.1",
+      "id": "relationship--490e0711-55b7-463b-abdb-eaacf7b5c5a4",
+      "created": "2026-01-16T10:14:54.000Z",
+      "modified": "2026-01-16T10:14:54.000Z",
+      "relationship_type": "contains",
+      "source_ref": "indicator--9924c34f-201f-4b01-a6f8-39ec8ca75e7a",
+      "target_ref": "indicator--34f6796a-ffcc-48ce-b740-b2304343374f"
+    },
+    {
+      "type": "relationship",
+      "spec_version": "2.1",
+      "id": "relationship--15b03774-3c8b-4847-9a82-370de6d3c1f8",
+      "created": "2026-01-05T09:19:24.000Z",
+      "modified": "2026-01-05T09:19:24.000Z",
+      "relationship_type": "owner-of",
+      "source_ref": "identity--e15d9e88-0e4c-48ae-acf2-60b4714f8fe3",
+      "target_ref": "indicator--f221b81b-195c-4c04-907b-56f3052641d0"
+    },
+    {
+      "type": "relationship",
+      "spec_version": "2.1",
+      "id": "relationship--2370d942-bcb6-4074-944b-cfa6bd24bf65",
+      "created": "2026-01-16T09:43:17.000Z",
+      "modified": "2026-01-16T09:43:17.000Z",
+      "relationship_type": "includes",
+      "source_ref": "indicator--2f2ed96f-0b02-480e-80dc-9488018a24ce",
+      "target_ref": "indicator--b47093f7-d77a-4ef8-98df-09cbdfd97c7f"
+    },
+    {
+      "type": "relationship",
+      "spec_version": "2.1",
+      "id": "relationship--16ba17d5-d77f-45e1-822b-fd3a5df9157f",
+      "created": "2026-01-16T10:00:44.000Z",
+      "modified": "2026-01-16T10:00:44.000Z",
+      "relationship_type": "contains",
+      "source_ref": "indicator--2f2ed96f-0b02-480e-80dc-9488018a24ce",
+      "target_ref": "indicator--34f6796a-ffcc-48ce-b740-b2304343374f"
+    },
+    {
+      "type": "relationship",
+      "spec_version": "2.1",
+      "id": "relationship--a4f55f2e-1415-4e4a-96f8-740ab2b4c0ac",
+      "created": "2026-02-02T08:55:07.000Z",
+      "modified": "2026-02-02T08:55:07.000Z",
+      "relationship_type": "connects-to",
+      "source_ref": "indicator--b47093f7-d77a-4ef8-98df-09cbdfd97c7f",
+      "target_ref": "indicator--225cb098-3f65-48a6-957f-9f88b3a01210"
+    },
+    {
+      "type": "relationship",
+      "spec_version": "2.1",
+      "id": "relationship--186821c3-698e-4f97-9a5b-493c9f0ecbdc",
+      "created": "2026-01-16T11:48:46.000Z",
+      "modified": "2026-01-16T11:48:46.000Z",
+      "relationship_type": "contains",
+      "source_ref": "indicator--34f6796a-ffcc-48ce-b740-b2304343374f",
+      "target_ref": "x-misp-object--6a40e665-b5cd-4226-9668-ae5fe1b9d538"
+    },
+    {
+      "type": "relationship",
+      "spec_version": "2.1",
+      "id": "relationship--a2f9d519-e36c-4a4b-b718-fa7cfb212cc1",
+      "created": "2026-01-16T10:48:07.000Z",
+      "modified": "2026-01-16T10:48:07.000Z",
+      "relationship_type": "owner-of",
+      "source_ref": "identity--c12dfbfb-f723-4412-b528-585d9f0b35be",
+      "target_ref": "indicator--34f6796a-ffcc-48ce-b740-b2304343374f"
+    },
+    {
+      "type": "relationship",
+      "spec_version": "2.1",
+      "id": "relationship--c7310ea0-04bf-4f6d-a92c-cbe52163fb9c",
+      "created": "2026-01-16T10:57:56.000Z",
+      "modified": "2026-01-16T10:57:56.000Z",
+      "relationship_type": "business-relations",
+      "source_ref": "identity--242152b5-3e2e-48a4-85a9-386f88454056",
+      "target_ref": "identity--c12dfbfb-f723-4412-b528-585d9f0b35be"
+    },
+    {
+      "type": "relationship",
+      "spec_version": "2.1",
+      "id": "relationship--64f492ab-6ea0-4cb9-a06e-d71e7d11462c",
+      "created": "2026-01-16T11:03:33.000Z",
+      "modified": "2026-01-16T11:03:33.000Z",
+      "relationship_type": "controls",
+      "source_ref": "identity--e8d989b3-db61-46f6-a3ff-09ae07cc7201",
+      "target_ref": "indicator--9924c34f-201f-4b01-a6f8-39ec8ca75e7a"
+    },
+    {
+      "type": "relationship",
+      "spec_version": "2.1",
+      "id": "relationship--d2362bcb-8612-4512-8f50-f9de3103956d",
+      "created": "2026-01-16T11:12:24.000Z",
+      "modified": "2026-01-16T11:12:24.000Z",
+      "relationship_type": "contains",
+      "source_ref": "x-misp-object--516cef30-56dc-4023-82ea-71d133651a83",
+      "target_ref": "indicator--b47093f7-d77a-4ef8-98df-09cbdfd97c7f"
+    },
+    {
+      "type": "relationship",
+      "spec_version": "2.1",
+      "id": "relationship--40b8091d-70dd-4418-8c0c-656a985828e3",
+      "created": "2026-01-16T11:14:16.000Z",
+      "modified": "2026-01-16T11:14:16.000Z",
+      "relationship_type": "registered-to",
+      "source_ref": "x-misp-object--516cef30-56dc-4023-82ea-71d133651a83",
+      "target_ref": "identity--b5d64ca2-41e5-44e5-88a5-21efa4144dbe"
+    },
+    {
+      "type": "relationship",
+      "spec_version": "2.1",
+      "id": "relationship--a25e2769-3654-4167-b0f4-f93449af5a73",
+      "created": "2026-01-16T11:28:25.000Z",
+      "modified": "2026-01-16T11:28:25.000Z",
+      "relationship_type": "owner-of",
+      "source_ref": "identity--b5d64ca2-41e5-44e5-88a5-21efa4144dbe",
+      "target_ref": "indicator--5dee53fa-0916-452c-b9d1-7a853afbb860"
+    },
+    {
+      "type": "relationship",
+      "spec_version": "2.1",
+      "id": "relationship--b28de5d6-ce6e-4c2b-8d4c-dbe38bafd9a8",
+      "created": "2026-01-16T11:25:06.000Z",
+      "modified": "2026-01-16T11:25:06.000Z",
+      "relationship_type": "contains",
+      "source_ref": "indicator--9532d8e8-38c6-4294-bfe1-21f86ff5a8e3",
+      "target_ref": "indicator--c7895e7f-cc96-45a7-b24a-152586909623"
+    },
+    {
+      "type": "relationship",
+      "spec_version": "2.1",
+      "id": "relationship--d06c89a5-ca09-4ca5-8c13-a2e36df8c19a",
+      "created": "2026-01-16T11:24:54.000Z",
+      "modified": "2026-01-16T11:24:54.000Z",
+      "relationship_type": "contains",
+      "source_ref": "indicator--290edd12-9083-4896-a39c-fc536e7a2d61",
+      "target_ref": "indicator--b47093f7-d77a-4ef8-98df-09cbdfd97c7f"
+    },
+    {
+      "type": "relationship",
+      "spec_version": "2.1",
+      "id": "relationship--b6249c21-c5d2-4e00-8449-3ebb8363496d",
+      "created": "2026-02-02T08:53:20.000Z",
+      "modified": "2026-02-02T08:53:20.000Z",
+      "relationship_type": "connects-to",
+      "source_ref": "indicator--290edd12-9083-4896-a39c-fc536e7a2d61",
+      "target_ref": "indicator--225cb098-3f65-48a6-957f-9f88b3a01210"
+    },
+    {
+      "type": "relationship",
+      "spec_version": "2.1",
+      "id": "relationship--e0e7ec49-8590-40e1-b2a3-948c55dfbfc0",
+      "created": "2026-01-16T11:27:54.000Z",
+      "modified": "2026-01-16T11:27:54.000Z",
+      "relationship_type": "contains",
+      "source_ref": "indicator--5dee53fa-0916-452c-b9d1-7a853afbb860",
+      "target_ref": "indicator--9532d8e8-38c6-4294-bfe1-21f86ff5a8e3"
+    },
+    {
+      "type": "relationship",
+      "spec_version": "2.1",
+      "id": "relationship--13a254e6-a47f-4295-9bd6-7b3e07620393",
+      "created": "2026-01-16T11:28:02.000Z",
+      "modified": "2026-01-16T11:28:02.000Z",
+      "relationship_type": "contains",
+      "source_ref": "indicator--5dee53fa-0916-452c-b9d1-7a853afbb860",
+      "target_ref": "indicator--290edd12-9083-4896-a39c-fc536e7a2d61"
+    },
+    {
+      "type": "relationship",
+      "spec_version": "2.1",
+      "id": "relationship--b9a9f637-e3e7-475c-986d-e7d45f1249c1",
+      "created": "2026-01-16T11:45:59.000Z",
+      "modified": "2026-01-16T11:45:59.000Z",
+      "relationship_type": "registered-to",
+      "source_ref": "x-misp-object--6a40e665-b5cd-4226-9668-ae5fe1b9d538",
+      "target_ref": "identity--c8af94a7-ba74-462a-8135-67de78deb73d"
+    },
+    {
+      "type": "relationship",
+      "spec_version": "2.1",
+      "id": "relationship--d7711567-24dd-4f52-bf61-ce161a7f440a",
+      "created": "2026-01-16T11:45:44.000Z",
+      "modified": "2026-01-16T11:45:44.000Z",
+      "relationship_type": "registered-to",
+      "source_ref": "x-misp-object--f95c6400-0cfa-4b91-9115-71a11505fd94",
+      "target_ref": "identity--c8af94a7-ba74-462a-8135-67de78deb73d"
+    },
+    {
+      "type": "relationship",
+      "spec_version": "2.1",
+      "id": "relationship--cea144de-f552-4d67-8fcc-441ae1af56fa",
+      "created": "2026-01-16T11:43:52.000Z",
+      "modified": "2026-01-16T11:43:52.000Z",
+      "relationship_type": "registered",
+      "source_ref": "identity--c63a83fd-5230-496b-a42d-e17341d93877",
+      "target_ref": "x-misp-object--f95c6400-0cfa-4b91-9115-71a11505fd94"
+    },
+    {
+      "type": "relationship",
+      "spec_version": "2.1",
+      "id": "relationship--80df2bc6-8e1a-4ad9-9cbe-33b3197d95fa",
+      "created": "2026-02-03T09:09:38.000Z",
+      "modified": "2026-02-03T09:09:38.000Z",
+      "relationship_type": "resolves-to",
+      "source_ref": "indicator--225cb098-3f65-48a6-957f-9f88b3a01210",
+      "target_ref": "indicator--8c2e8d89-dbf1-483c-bb2f-a50a640b9492"
+    },
+    {
+      "type": "relationship",
+      "spec_version": "2.1",
+      "id": "relationship--0f8d08b7-9851-4da3-b369-b2ce1481bce9",
+      "created": "2026-02-03T09:12:39.000Z",
+      "modified": "2026-02-03T09:12:39.000Z",
+      "relationship_type": "contains",
+      "source_ref": "indicator--a17a6e12-b146-4855-8ceb-b7925f452912",
+      "target_ref": "indicator--8c2e8d89-dbf1-483c-bb2f-a50a640b9492"
+    },
+    {
+      "type": "relationship",
+      "spec_version": "2.1",
+      "id": "relationship--404e68fe-a2b9-4d65-b701-467df388732d",
+      "created": "2026-02-03T09:14:53.000Z",
+      "modified": "2026-02-03T09:14:53.000Z",
+      "relationship_type": "registered-to",
+      "source_ref": "indicator--a17a6e12-b146-4855-8ceb-b7925f452912",
+      "target_ref": "identity--ffb9f7e7-d686-4c8d-a637-4233742fa3f1"
+    },
+    {
+      "type": "relationship",
+      "spec_version": "2.1",
+      "id": "relationship--c47bf875-df56-40b2-ada9-a02a308f7f94",
+      "created": "2026-02-07T10:20:00.000Z",
+      "modified": "2026-02-07T10:20:00.000Z",
+      "relationship_type": "owner-of",
+      "source_ref": "identity--0f8d7072-3507-44c4-a409-fc0e67dfee17",
+      "target_ref": "observed-data--0771b6bf-e320-4d76-a646-1f9f86a92106"
+    },
+    {
+      "type": "relationship",
+      "spec_version": "2.1",
+      "id": "relationship--4a0cdf17-04e0-4b5a-b781-80d81af65920",
+      "created": "2026-02-07T10:19:41.000Z",
+      "modified": "2026-02-07T10:19:41.000Z",
+      "relationship_type": "contains",
+      "source_ref": "observed-data--0771b6bf-e320-4d76-a646-1f9f86a92106",
+      "target_ref": "indicator--8c2e8d89-dbf1-483c-bb2f-a50a640b9492"
+    }
+  ]
+}
