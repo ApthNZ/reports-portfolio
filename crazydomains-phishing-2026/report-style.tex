@@ -1,0 +1,58 @@
+% Modern sans-serif font
+\usepackage{helvet}
+\renewcommand{\familydefault}{\sfdefault}
+
+% Clean table formatting with all borders
+\usepackage{booktabs}
+\usepackage{array}
+\usepackage{longtable}
+
+% Table row colouring
+\usepackage[table]{xcolor}
+
+% Override default pandoc table styling to add full grid lines
+\let\oldtoprule\toprule
+\let\oldmidrule\midrule
+\let\oldbottomrule\bottomrule
+\renewcommand{\toprule}{\hline}
+\renewcommand{\midrule}{\hline}
+\renewcommand{\bottomrule}{\hline}
+
+% Add alternating row colours to tables
+\makeatletter
+\let\oldlongtable\longtable
+\def\longtable{\rowcolors{2}{gray!8}{white}\oldlongtable}
+\makeatother
+
+% Bold table header rows
+\makeatletter
+\let\oldendhead\endhead
+\renewcommand{\endhead}{\oldendhead\rowcolor{white}}
+\makeatother
+
+% Force images to stay where they are in the source
+\usepackage{float}
+\floatplacement{figure}{H}
+
+% Tighter paragraph spacing
+\usepackage{parskip}
+\setlength{\parskip}{6pt}
+\setlength{\parindent}{0pt}
+
+% Modern heading style
+\usepackage{titlesec}
+\titleformat{\section}{\Large\bfseries\sffamily}{}{0em}{}[\titlerule]
+\titleformat{\subsection}{\large\bfseries\sffamily}{}{0em}{}
+\titleformat{\subsubsection}{\normalsize\bfseries\sffamily}{}{0em}{}
+\titlespacing*{\section}{0pt}{20pt}{10pt}
+\titlespacing*{\subsection}{0pt}{15pt}{8pt}
+
+% Code block word wrapping
+\usepackage{fvextra}
+\DefineVerbatimEnvironment{Highlighting}{Verbatim}{breaklines,breakanywhere,commandchars=\\\{\},fontsize=\small}
+\fvset{breaklines=true,breakanywhere=true}
+
+% Better code block styling
+\usepackage{framed}
+\definecolor{codebg}{RGB}{245,245,245}
+\definecolor{codeframe}{RGB}{200,200,200}
