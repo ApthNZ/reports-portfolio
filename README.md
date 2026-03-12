@@ -19,49 +19,29 @@
 ### What Is This?
 ...
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
 
 ### Delivered Reports
 ...
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
 
 ### In-Progress Reports
 ...
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 ### Redaction Requests
-
 ...
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 
 ### About Me
-
 ...
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
 
 
 ### Contact
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Andrew_Wilkinson-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/andrew-wilkinson-540a54106)
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
+[![LinkedIn](https://img.shields.io/badge/Andrew_Wilkinson-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/andrew-wilkinson-540a54106)        
+[![CPTIA](https://img.shields.io/badge/CREST_CPTIA-FF6B00?style=for-the-badge&logo=credly&logoColor=white)](https://www.credly.com/earner/earned/badge/5dd2079-8a2e-4b6c-91bb-3aaf7739b585) 
 
 
 ### Acknowledgements
-
 ...
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
