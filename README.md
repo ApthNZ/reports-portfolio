@@ -22,61 +22,51 @@ This is my personal portfolio of CTI and other InfoSec-related work, done in my 
 In part this is to encourage myself to seek feedback on my work so I can improve.
 Feedback is, therefore, very welcome :)
 
-<div align="center">                                                                                                                                                                      
-    <img src="https://img.shields.io/badge/%E2%80%95%E2%80%95%E2%80%95%E2%80%95%E2%80%95%E2%80%95%E2%80%95%E2%80%95%E2%80%95%E2%80%95%E2%80%95%E2%80%95%E2%80%95%E2%80%95%E2%80%95-272822?style=flat-square" />                                                                                                                                                       
-</div>
+<p align="center">• • •</p>
 
 
 ### Delivered Reports
  - [CrazyDomains Phishing Campaign 2026](https://github.com/ApthNZ/reports-portfolio/tree/main/crazydomains-phishing-2026)
  - [Privacy and Security Report for NZ Non-Profit](https://github.com/ApthNZ/reports-portfolio/tree/main/privacy-and-security-reports)
 
-<div align="center">                                                                                                                                                                      
-    <img src="https://img.shields.io/badge/%E2%80%95%E2%80%95%E2%80%95%E2%80%95%E2%80%95%E2%80%95%E2%80%95%E2%80%95%E2%80%95%E2%80%95%E2%80%95%E2%80%95%E2%80%95%E2%80%95%E2%80%95-272822?style=flat-square" />                                                                                                                                                       
-</div>
+<p align="center">• • •</p>
+
 
 ### In-Progress Reports
 None currently in progress.
 
-<div align="center">                                                                                                                                                                      
-    <img src="https://img.shields.io/badge/%E2%80%95%E2%80%95%E2%80%95%E2%80%95%E2%80%95%E2%80%95%E2%80%95%E2%80%95%E2%80%95%E2%80%95%E2%80%95%E2%80%95%E2%80%95%E2%80%95%E2%80%95-272822?style=flat-square" />                                                                                                                                                       
-</div>
+<p align="center">• • •</p>
+
 
 ### Report Backlog
  - DocuSign Phishing Campaign
 
-<div align="center">                                                                                                                                                                      
-    <img src="https://img.shields.io/badge/%E2%80%95%E2%80%95%E2%80%95%E2%80%95%E2%80%95%E2%80%95%E2%80%95%E2%80%95%E2%80%95%E2%80%95%E2%80%95%E2%80%95%E2%80%95%E2%80%95%E2%80%95-272822?style=flat-square" />                                                                                                                                                       
-</div>
+<p align="center">• • •</p>
+
 
 ### Redaction Requests
 If you would like me to remove or redact information in a report published in this repo, please log a GitHub issue using the link below.
 [![GitHub Issues](https://img.shields.io/badge/GitHub_Issues-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/ApthNZ/reports-portfolio/issues)               
 
-<div align="center">                                                                                                                                                                      
-    <img src="https://img.shields.io/badge/%E2%80%95%E2%80%95%E2%80%95%E2%80%95%E2%80%95%E2%80%95%E2%80%95%E2%80%95%E2%80%95%E2%80%95%E2%80%95%E2%80%95%E2%80%95%E2%80%95%E2%80%95-272822?style=flat-square" />                                                                                                                                                       
-</div>
+<p align="center">• • •</p>
+
 
 ### About Me
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Andrew_Wilkinson-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/andrew-wilkinson-540a54106)
 
 [![CPTIA](https://img.shields.io/badge/CREST-Practitioner_Threat_Intelligence_Analyst_(CPTIA)-FF6B00?style=for-the-badge)](https://www.credly.com/earner/earned/badge/05dd2079-8a2e-4b6c-91bb-3aaf7739b585)
 
-<div align="center">                                                                                                                                                                      
-    <img src="https://img.shields.io/badge/%E2%80%95%E2%80%95%E2%80%95%E2%80%95%E2%80%95%E2%80%95%E2%80%95%E2%80%95%E2%80%95%E2%80%95%E2%80%95%E2%80%95%E2%80%95%E2%80%95%E2%80%95-272822?style=flat-square" />                                                                                                                                                       
-</div>
+<p align="center">• • •</p>
+
 
 ### Contact
 As I'm not keen on putting email addresses here, please reach out via LinkedIn (sorry).
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Andrew_Wilkinson-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/andrew-wilkinson-540a54106)
 
-<div align="center">                                                                                                                                                                      
-    <img src="https://img.shields.io/badge/%E2%80%95%E2%80%95%E2%80%95%E2%80%95%E2%80%95%E2%80%95%E2%80%95%E2%80%95%E2%80%95%E2%80%95%E2%80%95%E2%80%95%E2%80%95%E2%80%95%E2%80%95-272822?style=flat-square" />                                                                                                                                                       
-</div>
+<p align="center">• • •</p>
+
 
 ### Acknowledgements
 The [InfoSec Exchange](https://infosec.exchange/home) community has been, and continues to be, incredibly welcoming and helpful.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
