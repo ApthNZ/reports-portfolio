@@ -23,8 +23,8 @@ Feedback is, therefore, very welcome :)
 <br><br>
 
 ### Delivered Reports
- - [CrazyDomains Phishing Campaign 2026](https://github.com/ApthNZ/reports-portfolio/tree/main/crazydomains-phishing-2026)
- - [Privacy and Security Report for NZ Non-Profit](https://github.com/ApthNZ/reports-portfolio/tree/main/privacy-and-security-reports)
+ -   ![CTI](https://img.shields.io/badge/CTI-ae81ff?style=flat-square)[CrazyDomains Phishing Campaign 2026](https://github.com/ApthNZ/reports-portfolio/tree/main/crazydomains-phishing-2026)
+ -   ![GRC](https://img.shields.io/badge/GRC-66d9ef?style=flat-square)[Privacy and Security Report for NZ Non-Profit](https://github.com/ApthNZ/reports-portfolio/tree/main/privacy-and-security-reports)
 <br><br>
 
 ### In-Progress Reports
@@ -32,7 +32,7 @@ None currently in progress.
 <br><br>
 
 ### Report Backlog
- - DocuSign Phishing Campaign
+ -   ![CTI](https://img.shields.io/badge/CTI-ae81ff?style=flat-square)DocuSign Phishing Campaign
 <br><br>
 
 ### Redaction Requests
