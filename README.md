@@ -17,9 +17,9 @@
 </details>
 
 ### What Is This?
-This is my personal portfolio of CTI and other InfoSec-related work, done in my personal time.
-In part this is to encourage myself to seek feedback on my work so I can improve.
-Feedback is, therefore, very welcome :)
+This is my personal portfolio of CTI and other InfoSec-related work, done in my personal time.<br>                                                                                        
+In part this is to encourage myself to seek feedback on my work so I can improve.<br>                                                                                                     
+Feedback is, therefore, very welcome :) 
 <br><br>
 
 ### Delivered Reports
@@ -36,7 +36,7 @@ None currently in progress.
 <br><br>
 
 ### Redaction Requests
-If you would like me to remove or redact information in a report published in this repo, please log a GitHub issue using the link below.
+If you would like me to remove or redact information in a report published in this repo, please log a GitHub issue using the link below.<br>
 [![GitHub Issues](https://img.shields.io/badge/GitHub_Issues-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/ApthNZ/reports-portfolio/issues)               
 <br><br>
 
@@ -47,11 +47,11 @@ If you would like me to remove or redact information in a report published in th
 <br><br>
 
 ### Contact
-As I'm not keen on putting email addresses here, please reach out via LinkedIn (sorry).
+As I'm not keen on putting email addresses here, please reach out via LinkedIn (sorry).<br>
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Andrew_Wilkinson-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/andrew-wilkinson-540a54106)
 <br><br>
 
 ### Acknowledgements
-The [InfoSec Exchange](https://infosec.exchange/home) community has been, and continues to be, incredibly welcoming and helpful.
+The [InfoSec Exchange](https://infosec.exchange/home) community has been, and continues to be, incredibly welcoming and helpful.<br>
 
 <p align="center">(<a href="#readme-top">back to top</a>)</p>
